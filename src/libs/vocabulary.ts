@@ -108,5 +108,12 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'woe', bold: false, explain: '' },
   { label: 'suffering', bold: true, explain: '' },
   { label: 'pathos', bold: false, explain: '' },
+  { label: 'artificial', bold: true, explain: '' },
+  { label: 'synthetic', bold: true, explain: '' },
+  { label: 'man-made', bold: false, explain: '' },
+  { label: 'relevant', bold: false, explain: '' },
+  { label: 'concerned', bold: false, explain: '' },
+  { label: 'involved', bold: false, explain: '' },
+  
 ]
 export default vocabularyArray
