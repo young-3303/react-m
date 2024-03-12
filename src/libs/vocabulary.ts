@@ -1,8 +1,10 @@
 interface Vocabulary {
-  label: string
-  bold: boolean
-  explain?: string
+    label: string
+    bold: boolean
+    explain?: string
+    explainVisible?: boolean
 }
+
 const vocabularyArray: Vocabulary[] = [
   { label: 'be absorbed in', bold: false, explain: '' },
   { label: 'be immersed in', bold: true, explain: '' },
@@ -114,6 +116,31 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'relevant', bold: false, explain: '' },
   { label: 'concerned', bold: false, explain: '' },
   { label: 'involved', bold: false, explain: '' },
-  
+  { label: 'appoint', bold: false, explain: '' },
+  { label: 'nominate', bold: false, explain: '' },
+  { label: 'delegate', bold: false, explain: '' },
+  { label: 'announce', bold: false, explain: '' },
+  { label: 'declare', bold: false, explain: '' },
+  { label: 'approach', bold: false, explain: '' },
+  { label: 'method', bold: false, explain: '' },
+  { label: 'means', bold: false, explain: '' },
+  { label: 'strategy', bold: false, explain: '' },
+  { label: 'tactic', bold: false, explain: '' },
+  { label: 'arouse', bold: true, explain: '唤醒' },
+  { label: 'awaken', bold: true, explain: '唤醒' },
+  { label: 'evoke', bold: false, explain: '' },
+  { label: 'provoke', bold: true, explain: '引发' },
+  { label: 'kindle', bold: false, explain: '' },
+  { label: 'wake up', bold: false, explain: '' },
+  { label: 'apparent', bold: true, explain: '明显的' },
+  { label: 'obvious', bold: true, explain: '显而易见的' },
+  { label: 'evident', bold: false, explain: '' },
+  { label: 'manifest', bold: true, explain: '显然的' },
+  { label: 'appearance', bold: false, explain: '' },
+  { label: 'occurrence', bold: true, explain: '发生、出现的事' },
+  { label: 'emergence', bold: false, explain: '' }
 ]
+vocabularyArray.forEach(item => {
+    item.explainVisible = false
+})
 export default vocabularyArray
