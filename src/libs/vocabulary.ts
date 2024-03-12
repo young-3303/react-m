@@ -155,6 +155,17 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'confirm', bold: false, explain: '' },
   { label: 'verify', bold: false, explain: '' },
   { label: 'determine', bold: true, explain: '' },
+  { label: 'ascribed to', bold: true, explain: '归因于' },
+  { label: 'attributed to', bold: true, explain: '归因于' },
+  { label: 'caused by', bold: false, explain: '' },
+  { label: 'aspiration', bold: true, explain: '抱负' },
+  { label: 'assertive', bold: false, explain: '' },
+  { label: 'judgment', bold: false, explain: '' },
+  { label: 'assess', bold: true, explain: '评估' },
+  { label: 'estimate', bold: true, explain: '估计' },
+  { label: 'evaluate', bold: true, explain: '评估' },
+  { label: 'at length', bold: true, explain: '详细地' },
+  { label: 'in detail', bold: true, explain: '' },
 ]
 vocabularyArray.forEach(item => {
     item.explainVisible = false
