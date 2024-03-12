@@ -8,7 +8,7 @@ function FormContent() {
     }
     return (
         <Form form={form} layout="horizontal" footer={
-            <Button onClick={submit} block type='submit' color='primary' size='small'>
+            <Button block type='submit' color='primary' size='small'>
               确定
             </Button>
           }>
