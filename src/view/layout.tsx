@@ -8,11 +8,9 @@ function layout() {
             <ul>
                 {vocabularyArray.map(item =>
                     <li style={{fontWeight: item.bold ? 700 : 400}} key={item.label}>
-                        {item.label}
-                        <Button className="addBtn" color='primary' fill='solid'>
-                            Solid
-                        </Button>
-                        {/*<button className={'addBtn'}>add</button>*/}
+                        <label htmlFor="">{item.label}</label>
+                        <span style={{marginLeft: '10px'}}>hala</span>
+                        <Button color='primary' className={'addBtn'}>显示</Button>
                     </li>)
                 }
             </ul>
