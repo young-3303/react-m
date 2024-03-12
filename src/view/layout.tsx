@@ -36,7 +36,8 @@ function Layout() {
                         <Button onClick={() => changeVisible(index)} color='primary' className={'addBtn'}>
                             {item.explainVisible ? '隐藏' : '显示'}
                         </Button>
-                    </li>)
+                    </li>
+                    )
                 }
             </ul>
             {/*<Button onClick={() => {setVisible(true)}} color="primary">add</Button>*/}
