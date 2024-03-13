@@ -1,0 +1,38 @@
+import {Vocabulary} from "./types.ts";
+
+
+const vocabularyArray2: Vocabulary[] = [
+    { label: 'be stuck with', bold: true, explain: '被困扰' },
+    { label: 'cursed with', bold: true, explain: '被诅咒或困扰' },
+    { label: 'confound', bold: false, explain: '使困惑' },
+    { label: 'be well-known', bold: true, explain: '' },
+    { label: 'famous', bold: true, explain: '' },
+    { label: 'beams', bold: true, explain: '光束' },
+    { label: 'rays', bold: false, explain: '' },
+    { label: 'beneath', bold: false, explain: '下面，之下' },
+    { label: 'below', bold: false, explain: '' },
+    { label: 'underneath', bold: false, explain: '' },
+    { label: 'beyond', bold: false, explain: '' },
+    { label: 'transcend', bold: true, explain: '超越' },
+    { label: 'surpass', bold: true, explain: '超越' },
+    { label: 'exceed', bold: true, explain: '超过' },
+    { label: 'bloom', bold: true, explain: '繁荣，绽放' },
+    { label: 'blossom', bold: true, explain: '繁荣' },
+    { label: 'brisk', bold: true, explain: '繁荣' },
+    { label: 'flourish', bold: true, explain: '繁荣' },
+    { label: 'prosperous', bold: true, explain: '经济繁荣' },
+    { label: 'bring about', bold: true, explain: '引起、导致' },
+    { label: 'bring up', bold: true, explain: '提出、教育、抚养' },
+    { label: 'browse', bold: false, explain: '翻阅，浏览' },
+    { label: 'leaf through', bold: true, explain: '翻阅' },
+    { label: 'run over', bold: false, explain: '快速浏览' },
+    { label: 'burden', bold: false, explain: '负担' },
+    { label: 'budget', bold: false, explain: '预算' },
+    { label: 'burned out', bold: false, explain: '疲惫不堪' },
+    { label: 'exhausted', bold: true, explain: '筋疲力尽的' },
+    { label: 'brutal', bold: true, explain: '残忍的' },
+    { label: 'cruel', bold: false, explain: '残忍的' },
+    { label: 'cannot be too', bold: true, explain: '再…也不为过' },
+    { label: 'cannot help doing', bold: true, explain: '不由自主地' },
+]
+export default vocabularyArray2
