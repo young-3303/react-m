@@ -1,9 +1,5 @@
-interface Vocabulary {
-    label: string
-    bold: boolean
-    explain?: string
-    explainVisible?: boolean
-}
+import {Vocabulary} from "./types.ts";
+
 
 const vocabularyArray: Vocabulary[] = [
   { label: 'be absorbed in', bold: false, explain: '' },
@@ -84,7 +80,7 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'alertness', bold: false, explain: '' },
   { label: 'vigilance', bold: false, explain: '' },
   { label: 'guard', bold: false, explain: '' },
-  { label: 'sensitivity', bold: true, explain: '' },
+  { label: 'sensitivity', bold: true, explain: '敏感的' },
   { label: 'alien', bold: false, explain: '' },
   { label: 'unfamiliar', bold: true, explain: '' },
   { label: 'strange', bold: false, explain: '' },
@@ -167,7 +163,6 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'evaluate', bold: true, explain: '评估' },
   { label: 'at length', bold: true, explain: '详细地' },
   { label: 'in detail', bold: true, explain: '' },
-  { label: 'judgment', bold: false, explain: '' },
   { label: 'at the mercy of', bold: true, explain: '' },
   { label: 'under the control of', bold: false, explain: '' },
   { label: 'attend to', bold: true, explain: '' },
@@ -177,7 +172,7 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'attract', bold: true, explain: '吸引 ' },
   { label: 'appealing to', bold: true, explain: '吸引人的' },
   { label: 'remarkable', bold: true, explain: '' },
-  { label: 'compelling', bold: true, explain: '' },
+  { label: 'compelling', bold: true, explain: '引人注目' },
   { label: 'striking', bold: true, explain: '' },
   { label: 'authorized', bold: true, explain: '' },
   { label: 'licensed', bold: false, explain: '' },
@@ -199,9 +194,5 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'reachless', bold: true, explain: '无法达到' },
   { label: 'be intended as', bold: true, explain: '打算' },
   { label: 'proposed', bold: false, explain: '建议，计划' },
-
 ]
-vocabularyArray.forEach(item => {
-    item.explainVisible = false
-})
 export default vocabularyArray
