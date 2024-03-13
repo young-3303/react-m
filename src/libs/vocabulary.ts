@@ -22,7 +22,7 @@ const vocabularyArray: Vocabulary[] = [
   { label: 'accomplish', bold: false, explain: '' },
   { label: 'complete', bold: false, explain: '' },
   { label: 'achieve', bold: false, explain: '' },
-  { label: 'attain', bold: true, explain: '' },
+  { label: 'attain', bold: true, explain: '获得，实现；达到' },
   { label: 'fulfill', bold: false, explain: '' },
   { label: 'account', bold: false, explain: '' },
   { label: 'explain', bold: false, explain: '' },
