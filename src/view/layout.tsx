@@ -9,6 +9,10 @@ import FormContent from './formContent';
 function Layout() {
   const [visible, setVisible] = useState<boolean>(false)
   const [list, setList] = useState(vocabularyArray)
+  const [tabItem] = useState<{ key: string; title: string }[]>([
+    {key: '1', title: 'G1'},
+    {key: '2', title: 'G2'}
+  ])
   const changeVisible = (index: number) => {
     const updateList = [...list]
     updateList.forEach((item, i) => {
@@ -26,10 +30,6 @@ function Layout() {
         break;
     }
   }
-  const tabItem: Array<{ key: string; title: string }> = [
-    {key: '1', title: 'G1'},
-    {key: '2', title: 'G2'}
-  ]
   return (
     <>
       <div className="layout">
@@ -68,5 +68,4 @@ function Layout() {
     </>
   )
 }
-
 export default Layout

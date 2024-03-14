@@ -3,7 +3,6 @@ import {Form, Button, Input} from 'antd-mobile'
 function FormContent() {
   const [form] = Form.useForm()
 
-
   return (
     <Form form={form} layout="horizontal" footer={
       <Button block type='submit' color='primary' size='small'>
