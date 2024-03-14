@@ -43,7 +43,7 @@ function Layout() {
           }}
           closeOnAction>
         </Modal>
-        <Tabs onChange={tabChange}>
+        <Tabs defaultActiveKey="1" onChange={tabChange}>
           {tabItem.map(tab =>
             <Tabs.Tab title={tab.title} key={tab.key}>
               <ul className="list">
