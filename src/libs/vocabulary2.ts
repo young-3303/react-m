@@ -96,7 +96,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'optimism', bold: true, explain: '乐观' },
   { label: 'confined', bold: true, explain: '受限的' },
   { label: 'restricted', bold: true, explain: '受限的' },
-  { label: 'confirm', bold: true, explain: '受限的' },
+  { label: 'confirm', bold: true, explain: '确认' },
   { label: 'affirm', bold: true, explain: '肯定' },
   { label: 'allege', bold: true, explain: '声称' },
   { label: 'congestion', bold: true, explain: '拥挤' },
