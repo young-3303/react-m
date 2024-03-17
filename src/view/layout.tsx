@@ -30,6 +30,7 @@ function Layout() {
         break;
     }
   }
+
   return (
     <>
       <div className="layout">
@@ -44,8 +45,8 @@ function Layout() {
           closeOnAction>
         </Modal>
         <Tabs defaultActiveKey="1" onChange={tabChange}>
-          {tabItem.map(tab =>
-            <Tabs.Tab title={tab.title} key={tab.key}>
+          {tabItem.map((tab, index) =>
+            <Tabs.Tab title={tab.title} key={index + 1}>
               <ul className="list">
                 {list.map((item, index) =>
                   <li style={{fontWeight: item.bold ? 700 : 400}} key={item.label}>
