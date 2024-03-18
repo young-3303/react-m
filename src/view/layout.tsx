@@ -12,7 +12,7 @@ function Layout() {
   const [list, setList] = useState(vocabularyArray)
   const [tabItem] = useState<{ key: string; title: string }[]>([
     {key: '1', title: 'G1'},
-    {key: '2', title: 'G3'},
+    {key: '2', title: 'G2'},
     {key: '3', title: 'G3'}
   ])
   const changeVisible = (index: number) => {
