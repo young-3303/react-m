@@ -53,15 +53,15 @@ function Layout() {
           {tabItem.map((tab, index) =>
             <Tabs.Tab title={tab.title} key={index + 1}>
               <ul className="list">
-                {list.map((item, index) =>
-                  <li style={{fontWeight: item.bold ? 700 : 400}} key={item.label}>
+                {list.map((item, i) =>
+                  <li style={{fontWeight: item.bold ? 700 : 400}} key={i}>
                     <label htmlFor="">{item.label}</label>
                     {/*{item.explainVisible ? <span style={{marginLeft: '10px'}}>{item.explain}</span> : null}*/}
                     <span style={{
                       marginLeft: '10px',
                       display: item.explainVisible ? 'inline' : 'none'
                     }}>{item.explain}</span>
-                    <Button onClick={() => changeVisible(index)} color='primary'
+                    <Button onClick={() => changeVisible(i)} color='primary'
                             className={'addBtn'}>
                       {item.explainVisible ? '隐藏' : '显示'}
                     </Button>
