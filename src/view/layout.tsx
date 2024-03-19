@@ -32,6 +32,7 @@ function Layout() {
         break;
       case '3':
         setList(vocabularyArray3)
+        break
     }
   }
 
