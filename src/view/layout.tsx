@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import vocabularyArray from "../libs/vocabulary";
-import vocabularyArray2 from "../libs/vocabulary2";
-import vocabularyArray3 from "../libs/vocabulary3";
+import vocabularyArray2 from "@/libs/vocabulary2.ts";
+import vocabularyArray3 from "@/libs/vocabulary3";
 import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
