@@ -146,6 +146,18 @@ const vocabularyArray3: Vocabulary[] = [
     {label: 'stimulate', bold: true, explain: '刺激'},
     {label: 'endurance', bold: true, explain: '忍耐力'},
     {label: 'patience', bold: true, explain: ''},
-
+    // {label: 'engage in', bold: true, explain: '参与'},
+    // {label: 'go in for', bold: true, explain: '热衷于'},
+    // {label: 'specialize in ', bold: true, explain: '参与'},
+    // {label: 'enhance', bold: false, explain: '增强'},
+    // {label: 'elevate', bold: true, explain: '提升'},
+    // {label: 'step up ', bold: true, explain: '增强'},
+    // {label: 'improve', bold: true, explain: '改善'},
+    // {label: 'cement', bold: false, explain: '巩固'},
+    // {label: 'intensify', bold: true, explain: '加强'},
+    // {label: 'consolidate', bold: true, explain: '加强'},
+    // {label: 'strengthen', bold: false, explain: '加强'},
+    // {label: 'engage in', bold: true, explain: '参与'},
+    // {label: 'engage in', bold: true, explain: '参与'},
 ]
 export default vocabularyArray3
