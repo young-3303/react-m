@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 import vocabularyArray from "../libs/vocabulary";
 import vocabularyArray2 from "@/libs/vocabulary2";
 import vocabularyArray3 from "@/libs/vocabulary3";
@@ -8,7 +8,7 @@ import './layout.less'
 import FormContent from './formContent';
 
 
-function Layout() {
+const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)
   const [list, setList] = useState(vocabularyArray)
   const [tabItem] = useState<{ key: string; title: string }[]>([
@@ -24,6 +24,8 @@ function Layout() {
     })
     setList(updateList)
   }
+  const layout = useRef<HTMLDivElement>(null)
+  const a = useRef<HTMLAnchorElement>(null)
   const tabChange = (key: string) => {
     switch (key) {
       case '1':
@@ -39,13 +41,15 @@ function Layout() {
         setList(vocabularyArray4)
     }
   }
-
+  useEffect(() => {
+  }, []);
   return (
     <>
-      <div className="layout">
+      <div className="layout" ref={layout}>
+        <a style={{visibility: 'hidden'}} href="" ref={a}>click</a>
         <Modal
           forceRender={true}
-          content={<FormContent/>}
+          content={<FormContent  hala="made" />}
           visible={visible}
           showCloseButton
           onClose={() => {
