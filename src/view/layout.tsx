@@ -1,7 +1,8 @@
 import {useState} from 'react'
 import vocabularyArray from "../libs/vocabulary";
-import vocabularyArray2 from "@/libs/vocabulary2.ts";
+import vocabularyArray2 from "@/libs/vocabulary2";
 import vocabularyArray3 from "@/libs/vocabulary3";
+import vocabularyArray4 from "@/libs/vocabulary4";
 import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
@@ -13,7 +14,8 @@ function Layout() {
   const [tabItem] = useState<{ key: string; title: string }[]>([
     {key: '1', title: 'G1'},
     {key: '2', title: 'G2'},
-    {key: '3', title: 'G3'}
+    {key: '3', title: 'G3'},
+    {key: '4', title: 'G4'}
   ])
   const changeVisible = (index: number) => {
     const updateList = [...list]
@@ -33,6 +35,8 @@ function Layout() {
       case '3':
         setList(vocabularyArray3)
         break
+      case '4':
+        setList(vocabularyArray4)
     }
   }
 
