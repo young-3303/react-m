@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import React, {useState} from 'react'
 import vocabularyArray from "../libs/vocabulary";
 import vocabularyArray2 from "@/libs/vocabulary2.ts";
 import vocabularyArray3 from "@/libs/vocabulary3";
@@ -7,7 +7,7 @@ import './layout.less'
 import FormContent from './formContent';
 
 
-function Layout() {
+const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)
   const [list, setList] = useState(vocabularyArray)
   const [tabItem] = useState<{ key: string; title: string }[]>([

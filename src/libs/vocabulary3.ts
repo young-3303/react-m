@@ -134,7 +134,7 @@ const vocabularyArray3: Vocabulary[] = [
     {label: 'economical', bold: true, explain: '经济的'},
     {label: 'thrifty', bold: true, explain: '节俭的'},
     {label: 'elastic', bold: true, explain: '有弹性的'},
-    {label: 'fexible', bold: true, explain: '灵活的'},
+    {label: 'flexible', bold: true, explain: '灵活的'},
     {label: 'embarked upon', bold: false, explain: '开始'},
     {label: 'set about', bold: false, explain: '开始'},
     {label: 'initiate', bold: false, explain: '开始'},
