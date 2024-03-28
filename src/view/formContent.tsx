@@ -1,7 +1,7 @@
 import {Form, Button, Input} from 'antd-mobile'
 import React from "react";
 
-const FormContent: React.FC = function () {
+const FormContent: React.FC<{hala?: string; ref?: React.RefObject<any>}> = ()=> {
   const [form] = Form.useForm()
   return (
     <Form form={form} layout="horizontal" footer={
