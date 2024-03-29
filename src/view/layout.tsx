@@ -26,6 +26,7 @@ const Layout: React.FC = () => {
   }
   const layout = useRef<HTMLDivElement>(null)
   const a = useRef<HTMLAnchorElement>(null)
+  const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
     switch (key) {
       case '1':
@@ -49,7 +50,7 @@ const Layout: React.FC = () => {
         <a style={{visibility: 'hidden'}} href="" ref={a}>click</a>
         <Modal
           forceRender={true}
-          content={<FormContent  hala="made" />}
+          content={<FormContent name={"hala"} ref={childRef} />}
           visible={visible}
           showCloseButton
           onClose={() => {

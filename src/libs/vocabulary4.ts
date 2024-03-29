@@ -2,7 +2,8 @@ import {Vocabulary} from "@/libs/types";
 
 const vocabularyArray4: Vocabulary[] = [
     { label: 'fall down', bold: false, explain: '摔倒或跌落' },
-    { label: 'collapse', bold: true, explain: '幻觉，错觉，虚假的信仰' },
+    { label: 'collapse', bold: true, explain: '倒塌，塌下，崩溃' },
+    { label: 'illusion', bold: true, explain: '幻觉，错觉，虚假的信仰' },
     { label: 'fasten', bold: true, explain: '系紧，扣紧，固定在' },
     { label: 'tied to', bold: true, explain: '与某事物或某人有紧密联系' },
     { label: 'faulty', bold: false, explain: '有缺陷的' },

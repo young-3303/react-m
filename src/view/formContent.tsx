@@ -1,8 +1,15 @@
 import {Form, Button, Input} from 'antd-mobile'
-import React from "react";
+import {forwardRef, useImperativeHandle} from "react";
 
-const FormContent: React.FC<{hala?: string; ref?: React.RefObject<any>}> = ()=> {
+const FormContent = forwardRef<{doSomething: () => void}, {name: string}>((_props, ref) => {
   const [form] = Form.useForm()
+
+  function doSomething() {
+    console.log('doSomething')
+  }
+  useImperativeHandle(ref, () => ({
+    doSomething,
+  }));
   return (
     <Form form={form} layout="horizontal" footer={
       <Button block type='submit' color='primary' size='small'>
@@ -25,6 +32,6 @@ const FormContent: React.FC<{hala?: string; ref?: React.RefObject<any>}> = ()=> 
       </Form.Item>
     </Form>
   )
-}
+})
 
 export default FormContent
