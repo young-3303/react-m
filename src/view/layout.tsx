@@ -8,7 +8,7 @@ import './layout.less'
 import FormContent from './formContent';
 
 
-const Layout: React.FC = () => {
+const Layout: React.FC = () => { 
   const [visible, setVisible] = useState<boolean>(false)
   const [list, setList] = useState(vocabularyArray)
   const [tabItem] = useState<{ key: string; title: string }[]>([
