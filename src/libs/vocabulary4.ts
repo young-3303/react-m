@@ -53,8 +53,6 @@ const vocabularyArray4: Vocabulary[] = [
     { label: 'hazardous', bold: true, explain: '危险的' },
     { label: 'jeopardize', bold: true, explain: '危及到' },
     { label: 'endanger', bold: true, explain: '置于危险中' },
-
-
 ]
 
 export default vocabularyArray4
