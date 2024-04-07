@@ -113,7 +113,7 @@ const vocabularyArray4: Vocabulary[] = [
     // { label: 'impact on ', bold: false, explain: '影响' },
     // { label: 'sway', bold: false, explain: '影响' },
     // { label: 'initiate', bold: true, explain: '发起，开始' },
-    // { label: 'initiative', bold: true, explain: '被捕捉' },
+    // { label: 'initiative', bold: true, explain: '措施，倡议；主动性，积极性；主动权' },
     // { label: 'launch', bold: true, explain: '推向，开始' },
     // { label: 'inquiry', bold: false, explain: '询问，调查' },
     // { label: 'investigation', bold: true, explain: '调查，研究' },
