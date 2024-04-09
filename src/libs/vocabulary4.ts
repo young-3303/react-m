@@ -137,7 +137,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: 'intellectual', bold: true, explain: '智能的，智能化' },
     { label: 'interference', bold: true, explain: '干扰，干涉' },
     { label: 'disturbance', bold: true, explain: '千扰，骚乱因素' },
-    { label: 'interruption', bold: true, explain: '中断' },
+    { label: 'interruption', bold: true, explain: '打断，插嘴' },
     { label: 'terminated', bold: true, explain: '终止的，结束的' },
     { label: 'suspend', bold: true, explain: '暂停，中止' },
     { label: 'abolish', bold: true, explain: '废除，取消' },
