@@ -1,4 +1,4 @@
-import {Vocabulary} from "./types.ts";
+import {Vocabulary} from "../types/types.ts";
 
 
 const vocabularyArray: Vocabulary[] = [

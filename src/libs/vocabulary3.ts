@@ -1,4 +1,4 @@
-import {Vocabulary} from "./types";
+import {Vocabulary} from "../types/types.ts";
 
 const vocabularyArray3: Vocabulary[] = [
     {label: 'convey', bold: false, explain: '传达'},

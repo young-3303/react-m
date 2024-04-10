@@ -1,4 +1,4 @@
-import {Vocabulary} from "@/libs/types";
+import {Vocabulary} from "@/types/types.ts";
 
 const vocabularyArray4: Vocabulary[] = [
     { label: 'fall down', bold: false, explain: '摔倒或跌落' },
