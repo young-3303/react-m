@@ -155,7 +155,7 @@ const vocabularyArray4: Vocabulary[] = [
     // { label: 'sustainable', bold: true, explain: '可持久的' },
     // { label: 'perpetuate', bold: true, explain: '永久化，使永久' },
     // { label: 'leaning', bold: true, explain: '倾向' },
-    // { label: 'tend to', bold: false, explain: '察觉' },
+    // { label: 'tend to', bold: false, explain: '倾向于' },
     // { label: 'inclined', bold: true, explain: '倾向的' },
     // { label: 'lean towards', bold: false, explain: '倾向' },
     // { label: 'legitimate', bold: false, explain: '合法的，合理的' },
