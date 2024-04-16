@@ -6,6 +6,7 @@ import vocabularyArray4 from "@/libs/vocabulary4";
 import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
+import vocabularyArray5 from "@/libs/vocabulary5";
 
 
 const Layout: React.FC = () => {
@@ -40,6 +41,9 @@ const Layout: React.FC = () => {
         break
       case '4':
         setList(vocabularyArray4)
+        break
+      case '5':
+        setList(vocabularyArray5)
     }
   }
   useEffect(() => {
