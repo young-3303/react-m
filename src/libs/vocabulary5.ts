@@ -2,6 +2,7 @@ import {Vocabulary} from "@/types/types.ts";
 
 const vocabularyArray5: Vocabulary[] = [
   { label: 'pledge', bold: false, explain: '誓言，承诺' },
+  { label: 'promise', bold: true, explain: '' },
   { label: 'pose', bold: true, explain: '提出，引起' },
   { label: 'raise', bold: true, explain: '提出，提高' },
   { label: 'poverty', bold: true, explain: '贫困' },
