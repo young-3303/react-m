@@ -16,7 +16,8 @@ const Layout: React.FC = () => {
     {key: '1', title: 'G1'},
     {key: '2', title: 'G2'},
     {key: '3', title: 'G3'},
-    {key: '4', title: 'G4'}
+    {key: '4', title: 'G4'},
+    {key: '5', title: 'G5'}
   ])
   const changeVisible = (index: number) => {
     const updateList = [...list]
