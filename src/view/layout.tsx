@@ -75,8 +75,10 @@ const Layout: React.FC = () => {
                       marginLeft: '10px',
                       display: item.explainVisible ? 'inline' : 'none'
                     }}>{item.explain}</span>
-                    <Button onClick={() => changeVisible(i)} color='primary'
-                            className={'addBtn'}>
+                    <Button
+                      onClick={() => changeVisible(i)}
+                      color='primary'
+                      className={'addBtn'}>
                       {item.explainVisible ? '隐藏' : '显示'}
                     </Button>
                   </li>)}
