@@ -47,7 +47,7 @@ const vocabularyArray3: Vocabulary[] = [
     {label: 'lack', bold: false, explain: '缺乏'},
     {label: 'scarcity', bold: true, explain: '短缺'},
     {label: 'definitely', bold: true, explain: '明确地'},
-    {label: 'necessarily', bold: false, explain: 'necessarily'},
+    {label: 'necessarily', bold: false, explain: '必定'},
     {label: 'specifically', bold: true, explain: '明确地'},
     {label: 'delay', bold: true, explain: '推迟'},
     {label: 'put off', bold: true, explain: '推迟'},
