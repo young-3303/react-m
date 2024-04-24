@@ -115,7 +115,6 @@ const vocabularyArray5: Vocabulary[] = [
   // { label: 'rough', bold: true, explain: '粗略的' },
   // { label: 'approximate', bold: true, explain: '大概、大约' },
   // { label: 'ruin', bold: false, explain: '毁坏' },
-  // { label: 'ruin', bold: false, explain: '毁坏' },
   // { label: 'bankruptcy', bold: true, explain: '破产' },
   // { label: 'go broke', bold: false, explain: '破产' },
   // { label: 'crash', bold: true, explain: '崩溃' },
@@ -145,6 +144,6 @@ const vocabularyArray5: Vocabulary[] = [
   // { label: 'stable', bold: true, explain: '' },
   // { label: 'static', bold: true, explain: '静止的，静态的' },
   // { label: 'striking', bold: true, explain: '引人注目' },
-  // { label: 'remarkable', bold: true, explain: '卓越的' },
+  // { label: 'remarkable', bold: true, explain: '卓越的' }
 ]
 export default vocabularyArray5
