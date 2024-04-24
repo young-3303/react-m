@@ -1,14 +1,11 @@
 import readline from "readline";
-
 import {exec} from "child_process";
-
 
 // 创建readline接口
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-console.log(process.env)
 rl.question('Enter the name of the dependency to remove: ', packageName => {
     if (!packageName) {
         console.log('No package name provided. Exiting...');
