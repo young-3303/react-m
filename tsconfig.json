@@ -20,6 +20,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@/*": [ "src/*" ]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }],
