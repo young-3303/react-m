@@ -113,7 +113,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'be compatible with', bold: true, explain: '与⋯兼容' },
   { label: 'consists in', bold: true, explain: ' 在于...' },
   { label: 'lie in', bold: true, explain: ' 在于...' },
-  { label: 'constraint', bold: true, explain: '限制' },
+  { label: 'constraint', bold: true, explain: '约束' },
   { label: 'restriction', bold: true, explain: '限制' },
   { label: 'consulting with', bold: true, explain: '与.商议' },
   { label: 'confer', bold: false, explain: '商议' },
