@@ -180,8 +180,6 @@ const vocabularyArray5: Vocabulary[] = [
   { label: 'perspective', bold: true, explain: '观点' },
   { label: 'violent', bold: true, explain: '暴力的' },
   { label: 'certainly', bold: false, explain: '必然的' },
-  { label: 'inevitable', bold: true, explain: '必然的' },
-  // { label: 'automatic', bold: false, explain: '' },
-  // { label: 'automatic', bold: false, explain: '' },
+  { label: 'inevitable', bold: true, explain: '必然的' }
 ]
 export default vocabularyArray5

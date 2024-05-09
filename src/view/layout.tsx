@@ -8,7 +8,6 @@ import './layout.less'
 import FormContent from './formContent';
 import vocabularyArray5 from "@/libs/vocabulary5";
 
-
 const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)
   const [list, setList] = useState(vocabularyArray)
@@ -27,7 +26,6 @@ const Layout: React.FC = () => {
     setList(updateList)
   }
   const layout = useRef<HTMLDivElement>(null)
-  const a = useRef<HTMLAnchorElement>(null)
   const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
     switch (key) {
@@ -52,10 +50,13 @@ const Layout: React.FC = () => {
   return (
     <>
       <div className="layout" ref={layout}>
-        <a style={{visibility: 'hidden'}} href="" ref={a}>click</a>
+        <div className="action-bar">
+          222222
+          {/*<van-icon name="eye-o"/>*/}
+        </div>
         <Modal
           forceRender={true}
-          content={<FormContent name={"hala"} ref={childRef} />}
+          content={<FormContent name={"hala"} ref={childRef}/>}
           visible={visible}
           showCloseButton
           onClose={() => {
