@@ -7,6 +7,7 @@ import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
 import vocabularyArray5 from "@/libs/vocabulary5";
+import { EyeOutline, EyeInvisibleOutline } from 'antd-mobile-icons'
 
 const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)
@@ -22,6 +23,13 @@ const Layout: React.FC = () => {
     const updateList = [...list]
     updateList.forEach((item, i) => {
       if (i === index) item.explainVisible = !item.explainVisible
+    })
+    setList(updateList)
+  }
+  const changeAllVisible = (flag: 'show' | 'hidden') => {
+    const updateList = [...list]
+    updateList.forEach(item => {
+      item.explainVisible = flag === 'show'
     })
     setList(updateList)
   }
@@ -51,7 +59,8 @@ const Layout: React.FC = () => {
     <>
       <div className="layout" ref={layout}>
         <div className="action-bar">
-          222222
+          <EyeOutline onClick={() => changeAllVisible('show')} fontSize={24} />
+          <EyeInvisibleOutline onClick={() => changeAllVisible('hidden')} fontSize={24} />
           {/*<van-icon name="eye-o"/>*/}
         </div>
         <Modal
