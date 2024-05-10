@@ -3,11 +3,13 @@ import vocabularyArray from "../libs/vocabulary";
 import vocabularyArray2 from "@/libs/vocabulary2";
 import vocabularyArray3 from "@/libs/vocabulary3";
 import vocabularyArray4 from "@/libs/vocabulary4";
+import vocabularyArray5 from "@/libs/vocabulary5";
 import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
-import vocabularyArray5 from "@/libs/vocabulary5";
-import { EyeOutline, EyeInvisibleOutline } from 'antd-mobile-icons'
+import {EyeOutline, EyeInvisibleOutline, DownOutline, UpOutline} from 'antd-mobile-icons'
+import {shuffleArray} from "@/utils";
+import {Vocabulary} from "@/types/types.ts";
 
 const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)
@@ -19,6 +21,8 @@ const Layout: React.FC = () => {
     {key: '4', title: 'G4'},
     {key: '5', title: 'G5'}
   ])
+  const [isReArrange, changeArrange] = useState<boolean>(false)
+
   const changeVisible = (index: number) => {
     const updateList = [...list]
     updateList.forEach((item, i) => {
@@ -36,6 +40,12 @@ const Layout: React.FC = () => {
   const layout = useRef<HTMLDivElement>(null)
   const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
+    // console.log('tabChange', document.querySelectorAll('.adm-tabs-content'))
+    const lists = document.querySelectorAll('#list')
+    lists.forEach(node => {
+      console.log(node);
+    })
+    console.log(lists);
     switch (key) {
       case '1':
         setList(vocabularyArray)
@@ -55,13 +65,20 @@ const Layout: React.FC = () => {
   }
   useEffect(() => {
   }, []);
+  useEffect(() => {
+    if (isReArrange) {
+      setList(shuffleArray(list))
+    }else {
+
+    }
+  }, [isReArrange]);
   return (
     <>
       <div className="layout" ref={layout}>
         <div className="action-bar">
           <EyeOutline onClick={() => changeAllVisible('show')} fontSize={24} />
           <EyeInvisibleOutline onClick={() => changeAllVisible('hidden')} fontSize={24} />
-          {/*<van-icon name="eye-o"/>*/}
+          {isReArrange ? <UpOutline onClick={() => changeArrange(false)} fontSize={24} /> : <DownOutline onClick={() => changeArrange(true)} fontSize={24} />}
         </div>
         <Modal
           forceRender={true}
@@ -76,7 +93,7 @@ const Layout: React.FC = () => {
         <Tabs defaultActiveKey="1" onChange={tabChange}>
           {tabItem.map((tab, index) =>
             <Tabs.Tab title={tab.title} key={index + 1}>
-              <ul className="list">
+              <ul id="list" className="list">
                 {list.map((item, i) =>
                   <li style={{fontWeight: item.bold ? 700 : 400}} key={i}>
                     <label htmlFor="">{item.label}</label>
