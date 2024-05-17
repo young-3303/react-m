@@ -9,7 +9,7 @@ import './layout.less'
 import FormContent from './formContent';
 import {EyeOutline, EyeInvisibleOutline, DownOutline, UpOutline} from 'antd-mobile-icons'
 import {shuffleArray} from "@/utils";
-import {Vocabulary} from "@/types/types.ts";
+// import {Vocabulary} from "@/types/types.ts";
 
 const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)

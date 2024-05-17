@@ -12,7 +12,7 @@ const vocabularyArray3: Vocabulary[] = [
     {label: 'regulate', bold: true, explain: '规范'},
     {label: 'create', bold: false, explain: '创造'},
     {label: 'produce', bold: false, explain: '生产'},
-    {label: 'generate', bold: true, explain: '传达'},
+    {label: 'generate', bold: true, explain: '生产'},
     {label: 'invent', bold: false, explain: '发明'},
     {label: 'craft', bold: false, explain: '制作 '},
     {label: 'criteria', bold: true, explain: '标准'},

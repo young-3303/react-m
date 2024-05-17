@@ -4,3 +4,4 @@ export interface Vocabulary {
     explain?: string
     explainVisible?: boolean
 }
+
