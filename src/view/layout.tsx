@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react'
-import vocabularyArray from "../libs/vocabulary-bak.ts";
+import vocabularyArray from "../libs/vocabulary.ts";
 import vocabularyArray2 from "@/libs/vocabulary2";
 import vocabularyArray3 from "@/libs/vocabulary3";
 import vocabularyArray4 from "@/libs/vocabulary4";
