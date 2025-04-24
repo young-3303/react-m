@@ -1,9 +1,10 @@
 import React, {useEffect, useRef, useState} from 'react'
-import vocabularyArray from "../libs/vocabulary";
+import vocabularyArray from "../libs/vocabulary-bak.ts";
 import vocabularyArray2 from "@/libs/vocabulary2";
 import vocabularyArray3 from "@/libs/vocabulary3";
 import vocabularyArray4 from "@/libs/vocabulary4";
 import vocabularyArray5 from "@/libs/vocabulary5";
+import vocabularyArray6 from "@/libs/vocabulary6";
 import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
@@ -19,7 +20,8 @@ const Layout: React.FC = () => {
     {key: '2', title: 'G2'},
     {key: '3', title: 'G3'},
     {key: '4', title: 'G4'},
-    {key: '5', title: 'G5'}
+    {key: '5', title: 'G5'},
+    {key: '6', title: 'F'}
   ])
   const [isReArrange, changeArrange] = useState<boolean>(false)
 
@@ -61,6 +63,9 @@ const Layout: React.FC = () => {
         break
       case '5':
         setList(vocabularyArray5)
+            break
+      case '6':
+        setList(vocabularyArray6)
     }
   }
   useEffect(() => {
