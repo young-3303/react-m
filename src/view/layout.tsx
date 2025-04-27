@@ -42,12 +42,6 @@ const Layout: React.FC = () => {
   const layout = useRef<HTMLDivElement>(null)
   const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
-    // console.log('tabChange', document.querySelectorAll('.adm-tabs-content'))
-    const lists = document.querySelectorAll('#list')
-    lists.forEach(node => {
-      console.log(node);
-    })
-    console.log(lists);
     switch (key) {
       case '1':
         setList(vocabularyArray)
