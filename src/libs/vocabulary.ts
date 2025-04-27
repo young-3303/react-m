@@ -188,4 +188,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'give up', bold: false, explain: '放弃；戒除；认输' }
 
 ]
+vocabularyArray2.forEach((item) => {
+  item.bold = false
+})
 export default vocabularyArray2
