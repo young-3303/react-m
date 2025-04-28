@@ -8,7 +8,7 @@ import vocabularyArray6 from "@/libs/vocabulary6";
 import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
-import {EyeOutline, EyeInvisibleOutline, DownOutline, UpOutline} from 'antd-mobile-icons'
+import {DownOutline, EyeInvisibleOutline, EyeOutline, UpOutline} from 'antd-mobile-icons'
 import {shuffleArray} from "@/utils";
 // import {Vocabulary} from "@/types/types.ts";
 
