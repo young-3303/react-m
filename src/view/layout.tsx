@@ -42,6 +42,7 @@ const Layout: React.FC = () => {
   const layout = useRef<HTMLDivElement>(null)
   const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
+      window.localStorage.setItem('tabKey', key)
     switch (key) {
       case '1':
         setList(vocabularyArray)
@@ -89,7 +90,7 @@ const Layout: React.FC = () => {
           }}
           closeOnAction>
         </Modal>
-        <Tabs defaultActiveKey="1" onChange={tabChange}>
+        <Tabs defaultActiveKey={window.localStorage.getItem('tabKey') || '1'} onChange={tabChange}>
           {tabItem.map((tab, index) =>
             <Tabs.Tab title={tab.title} key={index + 1}>
               <ul id="list" className="list">
