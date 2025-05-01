@@ -1,20 +1,14 @@
 import React, {useEffect, useRef, useState} from 'react'
-import vocabularyArray from "../libs/vocabulary.ts";
-import vocabularyArray2 from "@/libs/vocabulary2";
-import vocabularyArray3 from "@/libs/vocabulary3";
-import vocabularyArray4 from "@/libs/vocabulary4";
-import vocabularyArray5 from "@/libs/vocabulary5";
-import vocabularyArray6 from "@/libs/vocabulary6";
 import {Button, Modal, Tabs} from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
 import {DownOutline, EyeInvisibleOutline, EyeOutline, UpOutline} from 'antd-mobile-icons'
 import {shuffleArray} from "@/utils";
-// import {Vocabulary} from "@/types/types.ts";
+import {Vocabulary} from "@/types/types.ts";
 
 const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)
-  const [list, setList] = useState(vocabularyArray)
+  const [list, setList] = useState<Vocabulary []>([])
   const [tabItem] = useState<{ key: string; title: string }[]>([
     {key: '1', title: 'G1'},
     {key: '2', title: 'G2'},
@@ -42,28 +36,20 @@ const Layout: React.FC = () => {
   const layout = useRef<HTMLDivElement>(null)
   const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
-      window.localStorage.setItem('tabKey', key)
-    switch (key) {
-      case '1':
-        setList(vocabularyArray)
-        break;
-      case '2':
-        setList(vocabularyArray2)
-        break;
-      case '3':
-        setList(vocabularyArray3)
-        break
-      case '4':
-        setList(vocabularyArray4)
-        break
-      case '5':
-        setList(vocabularyArray5)
-            break
-      case '6':
-        setList(vocabularyArray6)
+    window.localStorage.setItem('tabKey', key)
+    console.log(key)
+    if (key === '1') {
+      import('@/libs/vocabulary').then((res) => {
+        setList(res.default)
+      })
+    }else {
+      import(`../libs/vocabulary${key}`).then((res) => {
+        setList(res.default)
+      })
     }
   }
   useEffect(() => {
+    tabChange(window.localStorage.getItem('tabKey') || '1')
   }, []);
   useEffect(() => {
     if (isReArrange) {
