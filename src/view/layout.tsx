@@ -37,7 +37,6 @@ const Layout: React.FC = () => {
   const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
     window.localStorage.setItem('tabKey', key)
-    console.log(key)
     if (key === '1') {
       import('@/libs/vocabulary').then((res) => {
         setList(res.default)
