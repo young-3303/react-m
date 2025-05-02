@@ -130,4 +130,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "retreat", bold: true, explain: "v. 撤退；后退" }
 
 ]
+vocabularyArray3.forEach((item) => {
+  item.bold = false
+})
 export default vocabularyArray3

@@ -41,11 +41,21 @@ const Layout: React.FC = () => {
       import('@/libs/vocabulary').then((res) => {
         setList(res.default)
       })
-    }else {
-      import(`../libs/vocabulary${key}`).then((res) => {
+    }else if (key === '2') {
+      import('@/libs/vocabulary2').then((res) => {
+        setList(res.default)
+      })
+    } else if (key === '3') {
+      import('@/libs/vocabulary3').then((res) => {
         setList(res.default)
       })
     }
+
+    // else {
+    //   import(`../libs/vocabulary2`).then(res => {
+    //     setList(res.default)
+    //   })
+    // }
   }
   useEffect(() => {
     tabChange(window.localStorage.getItem('tabKey') || '1')
