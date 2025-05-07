@@ -37,7 +37,7 @@ const Layout: React.FC = () => {
   const childRef = useRef<React.ElementRef<typeof FormContent>>(null)
   const tabChange = (key: string) => {
     window.localStorage.setItem('tabKey', key)
-    import(`../libs/vocabulary${key}.ts`).then(res => {
+    import(`../libs/vocabulary${key}.ts`).then((res) => {
       setList(res.default)
     })
   }
@@ -50,7 +50,7 @@ const Layout: React.FC = () => {
     }else {
 
     }
-  }, [isReArrange]);
+  }, [isReArrange, list]);
   return (
     <>
       <div className="layout" ref={layout}>

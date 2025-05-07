@@ -3,7 +3,6 @@ import {forwardRef, useImperativeHandle} from "react";
 
 const FormContent = forwardRef<{doSomething: () => void}, {name: string}>((_props, ref) => {
   const [form] = Form.useForm()
-
   function doSomething() {
     console.log('doSomething')
   }
