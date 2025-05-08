@@ -1,10 +1,11 @@
 import React, {useEffect, useRef, useState} from 'react'
-import {Button, Modal, Tabs} from "antd-mobile";
+import { Button, Image, Modal, Tabs } from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
 import {DownOutline, EyeInvisibleOutline, EyeOutline, UpOutline} from 'antd-mobile-icons'
 import {shuffleArray} from "@/utils";
 import {Vocabulary} from "@/types/types.ts";
+import topIcon from '@/assets/icons/top.svg'
 
 const Layout: React.FC = () => {
   const [visible, setVisible] = useState<boolean>(false)
@@ -18,7 +19,8 @@ const Layout: React.FC = () => {
     {key: '6', title: 'F'}
   ])
   const [isReArrange, changeArrange] = useState<boolean>(false)
-
+  const listContent = useRef<HTMLUListElement>(null)
+  const [scrollTop, setScrollTop] = useState<number>(0)
   const changeVisible = (index: number) => {
     const updateList = [...list]
     updateList.forEach((item, i) => {
@@ -41,14 +43,25 @@ const Layout: React.FC = () => {
       setList(res.default)
     })
   }
+  const handleScroll = () => {
+    setScrollTop(listContent.current?.scrollTop || 0)
+  }
+  const backTop = () => {
+    listContent.current?.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
   useEffect(() => {
     tabChange(window.localStorage.getItem('tabKey') || '1')
+    listContent.current?.addEventListener('scroll', handleScroll)
+    return () => {
+      listContent.current?.removeEventListener('scroll', handleScroll)
+    }
   }, []);
   useEffect(() => {
     if (isReArrange) {
       setList(shuffleArray(list))
-    }else {
-
     }
   }, [isReArrange, list]);
   return (
@@ -58,6 +71,9 @@ const Layout: React.FC = () => {
           <EyeOutline onClick={() => changeAllVisible('show')} fontSize={24} />
           <EyeInvisibleOutline onClick={() => changeAllVisible('hidden')} fontSize={24} />
           {isReArrange ? <UpOutline onClick={() => changeArrange(false)} fontSize={24} /> : <DownOutline onClick={() => changeArrange(true)} fontSize={24} />}
+        </div>
+        <div className="back-top" onClick={backTop} style={{opacity: scrollTop > 100 ? 1 : 0}}>
+          <Image src={topIcon} width={30} />
         </div>
         <Modal
           forceRender={true}
@@ -72,7 +88,7 @@ const Layout: React.FC = () => {
         <Tabs defaultActiveKey={window.localStorage.getItem('tabKey') || '1'} onChange={tabChange}>
           {tabItem.map((tab, index) =>
             <Tabs.Tab title={tab.title} key={index + 1}>
-              <ul id="list" className="list">
+              <ul id="list" className="list" ref={listContent}>
                 {list.map((item, i) =>
                   <li style={{fontWeight: item.bold ? 700 : 400}} key={i}>
                     <label htmlFor="">{item.label}</label>
