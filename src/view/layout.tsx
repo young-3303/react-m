@@ -16,7 +16,7 @@ const Layout: React.FC = () => {
     {key: '3', title: 'G3'},
     {key: '4', title: 'G4'},
     {key: '5', title: 'G5'},
-    {key: '6', title: 'F'}
+    {key: '6', title: 'G6'}
   ])
   const [isReArrange, changeArrange] = useState<boolean>(false)
   const listContent = useRef<HTMLUListElement>(null)
@@ -40,6 +40,9 @@ const Layout: React.FC = () => {
   const tabChange = (key: string) => {
     window.localStorage.setItem('tabKey', key)
     import(`../libs/vocabulary${key}.ts`).then((res) => {
+      res.default.forEach((item: Vocabulary) => {
+        item.bold = false
+      })
       setList(res.default)
     })
   }
