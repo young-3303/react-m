@@ -1,5 +1,4 @@
-import { Vocabulary } from "../types/types.ts";
-
+import { Vocabulary } from "@/types/types";
 
 const vocabularyArray2: Vocabulary[] = [
   { label: 'amuse', bold: false, explain: '娱乐;逗……乐' },
@@ -36,7 +35,6 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'pleasant', bold: false, explain: '舒适的,令人愉快的' },
   { label: 'intimate', bold: false, explain: '密切的,亲密的' },
   { label: 'familiar', bold: false, explain: '密切的,亲密的' },
-  { label: 'pleasant', bold: false, explain: '令人愉快的' },
   { label: 'cheerful', bold: false, explain: '快乐的,愉快的' },
   { label: 'pleased', bold: false, explain: '高兴的;喜欢的' },
   { label: 'enthusiasm', bold: false, explain: '热情,积极性' },
@@ -81,7 +79,9 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'hit', bold: false, explain: 'v./n.打击；产生不良影响' },
   { label: 'knock', bold: false, explain: 'v.敲，击，打，无端指责' },
   { label: 'beat', bold: false, explain: 'v.击败，连续击打' },
+  // 发誓追她----追不到就会很。。。
   { label: 'frustration', bold: false, explain: 'n.挫折，挫败' },
+  // 赛败
   { label: 'setback', bold: false, explain: '挫折' },
   { label: 'failure', bold: false, explain: '失败' },
   { label: 'rivalry', bold: false, explain: 'n.竞争；对抗' },
@@ -110,13 +110,17 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'able', bold: false, explain: 'adj.能够的；有能力的' },
   { label: 'capable', bold: false, explain: 'adj.有能力的；有才能的' },
   { label: 'qualified', bold: false, explain: 'adj.胜任的；合格的' },
+  // 爱领着包
   { label: 'eligible', bold: false, explain: 'adj.有资格的；符合条件的' },
   { label: 'endeavor', bold: true, explain: 'n.努力；尽力 vi.努力；尽力' },
   { label: 'effort', bold: false, explain: 'n.努力' },
+  // 死拽我
   { label: 'strive', bold: false, explain: 'vi.努力；奋斗' },
   { label: 'work hard', bold: false, explain: '努力工作' },
   { label: 'insist', bold: true, explain: 'vt.坚持' },
+  // 婆媳为儿
   { label: 'persevere', bold: false, explain: 'v.坚持' },
+  // 陪sister
   { label: 'persist', bold: false, explain: 'vi.坚持' },
   { label: 'stick to', bold: false, explain: '坚持；粘附' },
   { label: 'cling to', bold: false, explain: '坚持' },
@@ -126,6 +130,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'healthy', bold: false, explain: '健康的;健壮的' },
   { label: 'sound', bold: false, explain: '健康的' },
   { label: 'sturdy', bold: true, explain: 'adj.强健的；坚固的；坚定的' },
+  // 肉霸
   { label: 'robust', bold: false, explain: 'adj.强健的；强劲的' },
   { label: 'powerful', bold: false, explain: 'adj.强大的' },
   { label: 'firm', bold: false, explain: 'adj.坚固的；坚硬的' },
@@ -134,6 +139,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'energetic', bold: false, explain: 'adj.精力充沛的' },
   { label: 'invalid', bold: true, explain: 'adj.病弱的；无效的 n.病人' },
   { label: 'weak', bold: false, explain: 'adj.虚弱的；无力的' },
+  // 废包
   { label: 'feeble', bold: false, explain: 'adj.虚弱的；无力的' },
   { label: 'disabled', bold: false, explain: 'adj.有残疾的' },
   { label: 'sick', bold: false, explain: 'adj.有病的；患病的' },
@@ -148,6 +154,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'guard', bold: false, explain: 'n.保护；警卫；保卫' },
   { label: 'protect', bold: false, explain: 'v.防护；保护' },
   { label: 'secure', bold: false, explain: 'vt.保护；获得' },
+  // 稀有的
   { label: 'shield', bold: false, explain: 'n.保护人；保护物' },
   { label: 'shelter', bold: false, explain: 'v.提供庇护，提供保护' },
   { label: 'suffer', bold: true, explain: 'vi.忍受痛苦；受损失 vt.受苦，受罪' },
@@ -180,6 +187,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'resume', bold: false, explain: 'v.恢复，回到' },
   { label: 'revive', bold: false, explain: 'v.恢复，复兴' },
   { label: 'wonder', bold: true, explain: 'n.奇迹；惊奇 v.诧异' },
+  // 妈哦
   { label: 'marvel', bold: false, explain: 'n.令人惊异的人；奇迹' },
   { label: 'miracle', bold: false, explain: 'n.奇迹；圣迹；神迹' },
   { label: 'resign', bold: true, explain: 'vt.放弃；辞职 vi.辞职' },
@@ -188,6 +196,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'give up', bold: false, explain: '放弃；戒除；认输' },
   { label: 'contribute', bold: false, explain: 'v.捐献' },
   { label: 'donate', bold: false, explain: '捐赠;赠送' },
+  // 银到
   { label: 'endow', bold: false, explain: '捐钱,捐赠,资助' },
   {"label":"dedicate","bold":false,"explain":"vt. 奉献,献身"},
   {"label":"devote","bold":false,"explain":"v. 奉献;致力于"},
@@ -203,8 +212,10 @@ const vocabularyArray2: Vocabulary[] = [
   {"label":"aggravate","bold":false,"explain":"vt. 使加重；使严重；使恶化"},
   {"label":"intensify","bold":false,"explain":"vi. 加剧，增强；变激烈"},
   {"label":"worsen","bold":false,"explain":"v. (使)恶化"},
+  // all leave it
   { label: 'alleviate', bold: false, explain: '减轻,缓和' },
   { label: 'lighten', bold: false, explain: '减轻；缓和' },
+  // 远离我
   { label: 'relieve', bold: false, explain: '减轻' },
   { label: 'ease', bold: false, explain: '缓解；减轻' },
   { label: 'comfort', bold: false, explain: '安慰；抚慰' },
@@ -212,6 +223,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'break', bold: false, explain: '打破；（使）破，裂' },
   { label: 'destroy', bold: false, explain: '摧毁；毁灭；破坏' },
   { label: 'fragment', bold: false, explain: '碎裂，破裂' },
+  // 司马光
   { label: 'smash', bold: false, explain: '打破，破碎' },
   { label: 'crush', bold: false, explain: '压碎；捣碎' },
   { label: 'pain', bold: false, explain: '痛苦；不幸 使痛苦' },
@@ -219,6 +231,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'suffering', bold: false, explain: '疼痛；痛苦' },
   { label: 'ache', bold: false, explain: '痛苦，疼痛' },
   { label: 'hurt', bold: false, explain: '伤，痛 伤害；疼痛' },
+  // 没滋味
   { label: 'misery', bold: false, explain: '痛苦；悲惨；穷困' },
   { label: 'grief', bold: false, explain: '悲痛；伤心' },
   { label: 'collapse', bold: false, explain: '崩溃，倒塌，瓦解' },
@@ -227,13 +240,16 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'crash', bold: false, explain: '崩溃；碰撞；撞车' },
   { label: 'disintegrate', bold: false, explain: '崩溃，瓦解' },
   { label: 'crumble', bold: false, explain: '崩溃；破碎，粉碎' },
+  // 破费的包
   { label: 'profitable', bold: false, explain: '有益的；有利可图的' },
+  // lu + create
   { label: 'lucrative', bold: false, explain: '有利可图的' },
   { label: 'useful', bold: false, explain: '有用的；有益的' },
   { label: 'helpful', bold: false, explain: '有益的；有用的' },
   { label: 'beneficial', bold: false, explain: '有益的' },
   { label: 'advantageous', bold: false, explain: '有利的' },
   { label: 'favorable', bold: false, explain: '有利的' },
+  // 湿我
   { label: 'shiver', bold: false, explain: '颤抖，哆嗦' },
   { label: 'quake', bold: false, explain: '颤抖，发抖' },
   { label: 'shake', bold: false, explain: '颤抖，摇晃' },
