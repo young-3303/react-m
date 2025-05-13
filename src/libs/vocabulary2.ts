@@ -4,6 +4,7 @@ import {Vocabulary} from "../types/types.ts";
 const vocabularyArray2: Vocabulary[] = [
     {label: 'feature', bold: false, explain: 'n.特征 vt.以...为特色'},
     {label: 'character', bold: false, explain: 'n.特色；品质'},
+    // 吹他
     {label: 'trait', bold: false, explain: 'n.特质'},
     {label: 'attribute', bold: false, explain: 'n.属性；特征'},
     {label: 'reputation', bold: false, explain: 'n.名声，声望'},
@@ -31,16 +32,24 @@ const vocabularyArray2: Vocabulary[] = [
     {label: 'competence', bold: false, explain: 'n.能力，胜任'},
     {label: 'ability', bold: false, explain: 'n.能力'},
     {label: 'capability', bold: false, explain: 'n.能力，才能'},
+    // 可怕-city
     {label: 'capacity', bold: false, explain: 'n.能力，才能'},
     {label: 'intelligence', bold: false, explain: 'n.智力，理解力'},
+    // 维他命
     {label: 'wit', bold: false, explain: 'n.机智；风趣；智力'},
     {label: 'wisdom', bold: false, explain: 'n.智慧；才智'},
     {label: 'mature', bold: false, explain: 'adj.成熟的，考虑周到的 v.成熟，长成'},
+    {label: 'adult', bold: false, explain: 'adj.成年的，发育成熟的'},
+    {label: 'full-grown', bold: false, explain: 'adj.成熟的，长成的'},
+    {label: 'grown-up', bold: false, explain: 'adj.成长的，成熟的'},
+    {label: 'full-blown', bold: false, explain: 'adj.成年的，发育成熟的'},
     {label: "attractive", bold: false, explain: "adj.有吸引力的"},
     {label: "enticing", bold: false, explain: "adj.有诱惑力的",},
+    // 蔡明
     {label: "charming", bold: false, explain: "adj.令人着迷的",},
     {label: "catching", bold: false, explain: "adj.有感染力",},
     {label: "enchanting", bold: false, explain: "adj.迷人的"},
+    // 粉丝来听
     {label: "fascinating", bold: false, explain: "adj.迷人的"},
     {label: "elegant", bold: false, explain: "adj.优雅的，端庄的"},
     {label: "refined", bold: false, explain: "adj.有礼悦的；优雅的"},
@@ -49,19 +58,20 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "considerate", bold: false, explain: "adj.考虑周到的，体谅的"},
     {label: "deliberate", bold: false, explain: "adj.深思熟虑的"},
     {label: "thoughtful", bold: false, explain: "adj.考虑周到的"},
+    // 的士贵的
     {label: "discreet", bold: false, explain: "adj.谨慎的，小心的"},
     {label: "careful", bold: false, explain: "adj.谨慎的；仔细的"},
     {label: "prudent", bold: false, explain: "adj.谨慎的；慎重的"},
+    // 烤蛇食
     {label: "cautious", bold: false, explain: "adj.谨慎的；小心的"},
-    {label: "adult", bold: false, explain: "adj.成年的；发育成熟的"},
-    {label: "full-blown", bold: false, explain: "adj.完全成熟的"},
-    {label: "full-grown", bold: false, explain: "adj.成熟的；长成的"},
-    {label: "grown-up", bold: false, explain: "adj.成长的，成熟的"},
     {label: "careless", bold: false, explain: "adj. 粗心大意的"},
+    {label: "reckless", bold: false, explain: "adj. 鲁莽的、不计后果的"},
+    // 热死
     {label: "rash", bold: false, explain: "adj. 鲁莽的；轻率的"},
     {label: "imprudent", bold: false, explain: "adj. 鲁莽的"},
     {label: "thoughtless", bold: false, explain: "adj. 欠考虑的"},
     {label: "awkward", bold: false, explain: "adj. 笨拙的；尴尬的"},
+    // 肯老母鸡的
     {label: "clumsy", bold: false, explain: "adj. 笨拙的；不灵巧的"},
     {label: "unhandy", bold: false, explain: "adj. 笨拙的；难处理的"},
     {label: "foolish", bold: false, explain: "adj. 愚笨的，愚蠢的"},
@@ -75,25 +85,31 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "suspicious", bold: false, explain: "adj. 可疑的，多疑的，疑心的"},
     {label: "distrustful", bold: false, explain: "adj. 可疑的"},
     {label: "doubtful", bold: false, explain: "adj. 可疑的；怀疑的"},
+    // 都不是
     {label: "dubious", bold: false, explain: "adj. 可疑的，有疑惑的"},
     {label: "questionable", bold: false, explain: "adj. 可疑的"},
     {label: "formidable", bold: false, explain: "adj. 可怕的；(形状)巨大的；使人敬畏的"},
     {label: "frightful", bold: false, explain: "adj. 可怕的；极坏的"},
+    // 好惹不
     {label: "horrible", bold: false, explain: "adj. 极坏的；恐怖的"},
     {label: "terrible", bold: false, explain: "adj. 可怕的"},
+    // 啊？什么
     {label: "awesome", bold: false, explain: "adj. 可怕的，让人惊叹的"},
     {label: "fearful", bold: false, explain: "adj. 吓人的，可怕的"},
     {label: "evil", bold: false, explain: "adj. 邪恶的，坏的 n. 罪恶；祸害"},
+    // 死拜特
     {label: "spiteful", bold: false, explain: "adj. 恶毒的；恶意的"},
     {label: "wicked", bold: false, explain: "adj. 邪恶的；缺德的"},
     {label: "evil-minded", bold: false, explain: "adj. 恶毒的；心地邪恶的"},
     {label: "sinful", bold: false, explain: "adj. 邪恶的；不道德的"},
     {label: "vicious", bold: false, explain: "adj. 恶毒的"},
+    // 马丽莎死
     {label: "malicious", bold: false, explain: "adj. 恶意的"},
     {label: "eccentric", bold: false, explain: "adj. 奇怪的，反常的 n. 古怪的人"},
     {label: "odd", bold: false, explain: "adj. 古怪的；奇怪的"},
     {label: "queer", bold: false, explain: "adj. 奇怪的；反常的"},
     {label: "strange", bold: false, explain: "adj. 奇怪的；奇特的"},
+    // 皮裤脸
     {label: "peculiar", bold: false, explain: "adj. 奇怪的"},
     {label: "weird", bold: false, explain: "adj. 奇怪的；诡异的"},
     {label: "bizarre", bold: false, explain: "adj. 奇异的，古怪的"},
@@ -106,6 +122,7 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "catastrophe", bold: false, explain: "n. 灾难, 灾难"},
     {label: "confront", bold: true, explain: "vt. (with) 遭遇; 对抗"},
     {label: "face", bold: false, explain: "vt. 面临 n. 脸, 表面"},
+    // 硬抗他
     {label: "encounter", bold: true, explain: "v. 遭遇"},
     {label: "starvation", bold: true, explain: "n. 饥饿, 挨饿"},
     {label: "famine", bold: false, explain: "n. 饥荒; 匮乏, 短缺"},
@@ -115,6 +132,7 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "remainder", bold: true, explain: "n. 剩余物"},
     {label: "rest", bold: false, explain: "n. 剩余部分; 余下的人"},
     {label: "remains", bold: true, explain: "n. 剩余物; 残留物"},
+    {label: "uniform", bold: true, explain: "相同的"},
     {label: "identical", bold: true, explain: "adj. 相同的"},
     {label: "same", bold: false, explain: "adj. 相同的；同一的"},
     {label: "duplicate", bold: true, explain: "adj. 完全一样的"},
@@ -132,6 +150,7 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "unusual", bold: true, explain: "adj. 不寻常的"},
     {label: "absurd", bold: true, explain: "adj. 荒谬的；可笑的 n. 荒诞"},
     {label: "ridiculous", bold: false, explain: "adj. 荒谬的"},
+    // 犀利
     {label: "silly", bold: false, explain: "adj. 愚蠢的；不明事理的"},
     {label: "inevitable", bold: true, explain: "adj. 必然的，不可避免的"},
     {label: "inescapable", bold: false, explain: "adj. 不可避免的"},
@@ -145,14 +164,18 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "likely", bold: false, explain: "adj. 可能的；预料的"},
     {label: "probable", bold: false, explain: "adj. 可能的"},
     {label: "precise", bold: true, explain: "adj. 确切的；准确的"},
+    // IQ right就
     {label: "accurate", bold: false, explain: "adj. 精确的"},
+    // 一刻再刻的
     {label: "exact", bold: false, explain: "adj. 准确的；精确的"},
     {label: "successive", bold: false, explain: "adj. 连续的，依次的"},
     {label: "continuous", bold: false, explain: "adj.连续的"},
     {label: "uninterrupted", bold: false, explain: "adj.连续的"},
+    // 看谁可替我
     {label: "consecutive", bold: false, explain: "adj.连续的"},
     {label: "frequent", bold: true, explain: "adj.频繁的"},
     {label: "often", bold: false, explain: "adv.经常；往往"},
+    // 肯定牛
     {label: "continual", bold: false, explain: "adj.频繁的"},
     {label: "authentic", bold: true, explain: "adj.真实的；可靠的，可信的"},
     {label: "actual", bold: false, explain: "adj.真实的；实际的"},
@@ -166,11 +189,13 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "abundant", bold: false, explain: "adj.大量的"},
     {label: "mass", bold: false, explain: "adj.许多的；许多的"},
     { label: "comprehensive", bold: true, explain: "adj.全面的" },
+    // 因太饿
     { label: "entire", bold: true, explain: "adj.全部的" },
     { label: "total", bold: false, explain: "adj.全部的；总的" },
     { label: "faultless", bold: true, explain: "adj.完美的；无缺点的" },
     { label: "perfect", bold: false, explain: "adj.完美的；完备的" },
     { label: "flawless", bold: false, explain: "adj.完美的" },
+    // 易拉不弱他
     { label: "elaborate", bold: true, explain: "adj.精致的 vt.精心制作" },
     { label: "delicate", bold: false, explain: "adj.精致的；精美的" },
     { label: "fine", bold: false, explain: "adj.精致的，华贵的" },
@@ -192,15 +217,19 @@ const vocabularyArray2: Vocabulary[] = [
     { label: "incorrect", bold: false, explain: "adj.错误的" },
     { label: "wrong", bold: false, explain: "adj.错误的；不对的" },
     { label: "mysterious", bold: true, explain: "adj.神秘的，难以理解的" },
+    // 为儿的
     { label: "weird", bold: false, explain: "adj.神秘的；奇怪的" },
     { label: "magic", bold: false, explain: "adj.神奇的" },
+    // 一门死
     { label: "immense", bold: true, explain: "adj.巨大的，广大的" },
     { label: "enormous", bold: false, explain: "adj.巨大的" },
+    // 哥 i ant
     { label: "giant", bold: false, explain: "adj.巨大的；特大的" },
     { label: "gigantic", bold: false, explain: "adj.巨大的" },
     { label: "great", bold: false, explain: "adj.伟大的；巨大的" },
     { label: "huge", bold: false, explain: "adj.巨大的；极多的" },
     { label: "massive", bold: false, explain: "adj.大量的；巨大的" },
+    // 挖死他
     { label: "vast", bold: false, explain: "adj.巨大的；辽阔的" },
     { label: "tremendous", bold: false, explain: "adj.极大的" },
     { label: "medium", bold: true, explain: "adj. 中等的，适中的 n. 中间；媒介" },
@@ -209,9 +238,12 @@ const vocabularyArray2: Vocabulary[] = [
     { label: "integral", bold: true, explain: "adj. 完整的" },
     { label: "whole", bold: false, explain: "adj. 全部的，整个的" },
     { label: "entire", bold: false, explain: "adj. 全部的；完整的" },
+    // in tank
     { label: "intact", bold: false, explain: "adj. 完好无损的" },
     { label: "complete", bold: false, explain: "adj. 全部的" },
+    // kan size
     { label: "concise", bold: true, explain: "adj. 简明的，简洁的" },
+    // 不理父
     { label: "brief", bold: false, explain: "adj. 简明的；短暂的" },
     { label: "straightforward", bold: false, explain: "adj. 简单的，易懂的" },
     { label: "simple", bold: false, explain: "adj. 简单的，简明的" },
@@ -219,10 +251,13 @@ const vocabularyArray2: Vocabulary[] = [
     { label: "striking", bold: false, explain: "adj. 引人注目的" },
     { label: "apparent", bold: false, explain: "adj. 显然的" },
     { label: "noticeable", bold: false, explain: "adj. 值得注意的" },
+    // 爱，为等他
     { label: "evident", bold: false, explain: "adj. 显而易见的" },
     { label: "conspicuous", bold: false, explain: "adj. 明显的" },
     { label: "perpetual", bold: true, explain: "adj. 永久的" },
+    // 一头老
     { label: "eternal", bold: false, explain: "adj. 永久的；不朽的" },
+    // 泼墨弄他
     { label: "permanent", bold: false, explain: "adj. 永久的" },
     { label: "forever", bold: false, explain: "adv. 长期的，永久的" },
     { label: "everlasting", bold: false, explain: "adj. 永恒的" },
@@ -233,11 +268,15 @@ const vocabularyArray2: Vocabulary[] = [
     { label: "instant", bold: false, explain: "n. 瞬间 adj. 立刻的" },
     { label: "swift", bold: true, explain: "adj. 快的，迅速的" },
     { label: "speedy", bold: false, explain: "adj. 迅速的；尽快的" },
+    // 浮力的
     { label: "fleet", bold: false, explain: "adj. 快速的" },
     { label: "fast", bold: false, explain: "adj. 快速的；快的" },
     { label: "quick", bold: false, explain: "adj. 快的；迅速的" },
+    // rabbit
     { label: "rapid", bold: false, explain: "adj. 迅速的；快速的" },
+    // 废了他
     { label: "faint", bold: true, explain: "adj. 模糊的；虚弱的" },
+    // 地墓
     { label: "dim", bold: false, explain: "adj. 模糊不清的；忧愁的" },
     { label: "cloudy", bold: false, explain: "adj. 多云的；模糊不清的" },
     { label: "foggy", bold: false, explain: "adj. 有雾的；模糊的" },
