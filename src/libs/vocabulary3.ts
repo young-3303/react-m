@@ -23,6 +23,7 @@ const vocabularyArray3: Vocabulary[] = [
   {label: "elevate", bold: false, explain: "vt. 提升；提高；抬起"},
   {label: "increase", bold: false, explain: "v. 增长，增多"},
   {label: "lift", bold: false, explain: "v. 举起；提起；抬高"},
+    // 不死的
   {label: "boost", bold: false, explain: "v. 使增长，推动"},
   {label: "enhance", bold: false, explain: "v. 增强，提高，改善"},
   { label: "drop", bold: false, explain: "v. 下降" },
@@ -35,6 +36,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "puzzle", bold: false, explain: "vt. 使迷惑" },
   { label: "confuse", bold: false, explain: "vt. 使糊涂；混淆" },
   { label: "arouse", bold: true, explain: "vt. 激起；唤起" },
+    // 一刻赛的
   { label: "excite", bold: false, explain: "vt. 使激动；使兴奋" },
   { label: "stimulate", bold: false, explain: "vt. 激发；激励" },
   { label: "provoke", bold: false, explain: "vt. 激起；引起" },
