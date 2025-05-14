@@ -7,22 +7,28 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "kind", bold: false, explain: "n. 种类" },
   { label: "species", bold: false, explain: "n. 物种" },
   { label: "territory", bold: true, explain: "n. 领域,领土,范围" },
+    // 死爬这里
   { label: "sphere", bold: false, explain: "n. 范围;领域" },
   { label: "field", bold: false, explain: "n. 领域" },
   { label: "domain", bold: false, explain: "n. 领域,范围" },
+    // di + strict
   { label: "district", bold: false, explain: "n. 地区;区域" },
   { label: "area", bold: false, explain: "n. 地区;地域" },
+    // real + me
   { label: "realm", bold: false, explain: "n. 领域" },
   { label: "region", bold: false, explain: "n. 区域;地区" },
   { label: "zone", bold: false, explain: "n. 区域;分区" },
+    // 卖给了他
   { label: "migrate", bold: true, explain: "vi. 移动;移植;迁徙 vi. 使移居" },
   { label: "transfer", bold: false, explain: "v. 转移;搬迁" },
   { label: "relocate", bold: false, explain: "v. 搬迁,迁移" },
   { label: "resettle", bold: false, explain: "v. 重新定居;搬迁" },
   { label: "move", bold: false, explain: "v. 移动;改变位置;变化" },
+    // 你我rich
   { label: "nourish", bold: true, explain: "vt. 养育,提供养分" },
   { label: "feed", bold: false, explain: "v. 养;饲养;进食" },
   { label: "cultivate", bold: false, explain: "vt. 培养;培育" },
+    // 不易的
   { label: "breed", bold: false, explain: "v. 生殖;饲养" },
   { label: "bring up", bold: false, explain: "养育;抚养;养" },
   { label: "exploit", bold: true, explain: "vt. 使用;开采" },
@@ -30,8 +36,11 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "utilize", bold: false, explain: "vt. 使用;利用" },
   { label: "make use of", bold: false, explain: "使用;利用" },
   { label: "take advantage of", bold: false, explain: "利用" },
+    // 地开
   { label: "decay", bold: true, explain: "vi. 腐烂,衰败 n. 腐烂" },
+    // 肉疼
   { label: "rot", bold: false, explain: "v. 腐烂; (使)腐败变质" },
+    // 是包邮
   { label: "spoil", bold: false, explain: "v. (食物)变质,腐败" },
   { label: "collapse", bold: true, explain: "vi./n. 倒塌" },
   { label: "fall", bold: false, explain: "v. 倒下,倒塌" },
@@ -44,7 +53,9 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "erupt", bold: true, explain: "v. 爆发;喷发" },
   { label: "break out", bold: false, explain: "爆发" },
   { label: "spout", bold: false, explain: "v. (使)喷出，(使)喷射" },
+    // 湿透
   { label: "saturate", bold: true, explain: "vt. 使充满，使饱和" },
+    // 快么
   { label: "cram", bold: false, explain: "v. 塞满；挤满" },
   { label: "fill", bold: false, explain: "v. 填满；(使)充满" },
   { label: "stuff", bold: false, explain: "vt. 填满；装满；塞满" },
@@ -70,22 +81,30 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "uncommon", bold: false, explain: "adj. 不常有的" },
   { label: "universal", bold: true, explain: "adj. 普遍的; 通用的; 全世界的; 宇宙的" },
   { label: "common", bold: false, explain: "adj. 常见的, 通常的" },
+    // 呸，我冷的
   { label: "prevalent", bold: false, explain: "adj. 普遍存在的" },
   { label: "general", bold: false, explain: "adj. 全体的, 普遍的" },
   { label: "widespread", bold: false, explain: "adj. 普遍的" },
+    // 撕不烂的
   { label: "splendid", bold: true, explain: "adj. 壮丽的, 辉煌的" },
+    // 哥劳累而死
   { label: "glorious", bold: false, explain: "adj. 壮丽的, 辉煌的" },
+    // 够软的
   { label: "grand", bold: false, explain: "adj. 壮丽的, 宏伟的" },
   { label: "magnificent", bold: false, explain: "adj. 壮丽的" },
   { label: "superb", bold: false, explain: "adj. 卓越的, 壮丽的" },
   { label: "pollute", bold: true, explain: "v. 污染, 弄脏" },
+    // 看他们弄的
   { label: "contaminate", bold: false, explain: "v. 污染" },
+    // 死定了
   { label: "stain", bold: false, explain: "v. 污染, 弄脏" },
   { label: "dirty", bold: false, explain: "v. 弄脏" },
   { label: "texture", bold: true, explain: "n. 质地, 结构" },
+    // 看破这生
   { label: "composition", bold: false, explain: "n. 构成" },
   { label: "framework", bold: false, explain: "n. 结构, 构架" },
   { label: "structure", bold: false, explain: "n. 结构, 构造" },
+    // 看肥哥外型
   { label: "configuration", bold: false, explain: "n. 构造" },
   { label: "fabric", bold: false, explain: "n. 构造, 结构" },
   { label: "spacious", bold: true, explain: "adj. 广阔的, 宽敞的" },
@@ -105,6 +124,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "innovation", bold: true, explain: "n. 创新, 改革, 新事物, 新方法" },
   { label: "renovation", bold: false, explain: "n. 革新, 翻新" },
   { label: "reform", bold: false, explain: "n. 改革; 改进; 改良" },
+  { label: "achievement", bold: false, explain: "n. 成绩；成就" },
   { label: "success", bold: true, explain: "n. 成功; 胜利; 发财" },
   { label: "accomplishment", bold: false, explain: "n. 成就" },
   { label: "improvement", bold: true, explain: "n. 改进" },
@@ -114,6 +134,8 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "run", bold: false, explain: "v. 运作; 运转" },
   { label: "equipment", bold: true, explain: "n. 设备; 器材" },
   { label: "device", bold: false, explain: "n. 设备; 仪器; 器具" },
+    // 以命替他
+  { label: "imitate", bold: false, explain: "vt 模仿；仿造" },
   { label: "copy", bold: true, explain: "v. 模仿; 复制; 复印" },
   { label: "mock", bold: false, explain: "v. 模仿" },
   { label: "imagine", bold: true, explain: "vt. 想象,设想" },
@@ -124,6 +146,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "prospect", bold: true, explain: "n. 前景,前程" },
   { label: "outlook", bold: false, explain: "n. 前景,观点" },
   { label: "future", bold: false, explain: "n. 前景,前途,前程" },
+    // post + boom
   { label: "postpone", bold: true, explain: "vt. 推迟,延期" },
   { label: "defer", bold: false, explain: "vt. 推迟,延缓,展期" },
   { label: "delay", bold: false, explain: "vt. 推迟,延迟,延期" },
@@ -132,15 +155,19 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "include", bold: false, explain: "vt. 包括,包含" },
   { label: "comprise", bold: false, explain: "vt. 包含,包括" },
   { label: "embody", bold: false, explain: "vt. 体现,包含" },
+    // 因我
   { label: "involve", bold: false, explain: "v. 涉及,包含" },
   { label: "compress", bold: true, explain: "v. 压缩" },
   { label: "squeeze", bold: false, explain: "v. 挤压,紧握" },
   { label: "condense", bold: false, explain: "v. 压缩" },
-  { label: "classify", bold: true, explain: "vt. 分类; 划分" },
+  { label: "crush", bold: false, explain: "v. 浓缩,浓缩成" },
+  { label: "press", bold: true, explain: "压" },
+  { label: "classify", bold: false, explain: "分类；划分" },
   { label: "categorize", bold: false, explain: "vt. 将...分类" },
   { label: "group", bold: false, explain: "v. 成组, 聚集; 将...分类" },
   { label: "class", bold: false, explain: "vt. 把...归入某等级" },
   { label: "sort", bold: false, explain: "v. 分类 n. 种类" },
+    // 应踹开他
   { label: "intricate", bold: true, explain: "adj. 复杂的, 错综的" },
   { label: "complex", bold: false, explain: "adj. 复杂的" },
   { label: "complicated", bold: false, explain: "adj. 复杂的" },
@@ -169,6 +196,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "navigation", bold: false, explain: "n. 航行, 航海" },
   { label: "voyage", bold: false, explain: "v. 航行, 远行" },
   { label: "conduct", bold: true, explain: "v. 实施, 进行" },
+    // money 飘来的
   { label: "manipulate", bold: false, explain: "v. 操纵, 操作" },
   { label: "operate", bold: false, explain: "v. 操纵, 操作" },
   { label: "handle", bold: false, explain: "v. 操纵, 操作" },
@@ -179,6 +207,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "essential", bold: false, explain: "adj. 基本的, 至关重要的" },
   { label: "vital", bold: false, explain: "adj. 基本的, 至关重要的" },
   { label: "standpoint", bold: true, explain: "n. 立场, 观点" },
+    // 破事别提我
   { label: "perspective", bold: false, explain: "n. 态度, 观点" },
   { label: "opinion", bold: false, explain: "n. 意见, 想法" },
   { label: "view", bold: false, explain: "n. 观点, 看法" },
@@ -186,9 +215,11 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "conceive", bold: true, explain: "vi. 设想, 考虑" },
   { label: "assume", bold: false, explain: "v. 假定, 假设, 认为" },
   { label: "imagine", bold: false, explain: "v. 设想, 想象" },
+    // 一问谁知
   { label: "envisage", bold: false, explain: "vt. 想象, 设想" },
   { label: "concept", bold: true, explain: "n. 概念, 观念" },
   { label: "idea", bold: false, explain: "n. 概念, 主意, 想法" },
+    // no 神
   { label: "notion", bold: false, explain: "n. 概念, 观念, 信念" },
   { label: "consider", bold: true, explain: "vt. 考虑, 认为" },
   { label: "reflect", bold: false, explain: "vt. 仔细考虑, 深思" },
@@ -222,9 +253,12 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "difference", bold: false, explain: "n. 差异" },
   { label: "contrast", bold: false, explain: "n. 差别，对比" },
   { label: "adverse", bold: true, explain: "adj. 相反的，敌对的" },
+    // 靠吹
   { label: "contrary", bold: false, explain: "adj. 相反的，相对的" },
+    // river 死
   { label: "reverse", bold: false, explain: "adj. 相反的" },
   { label: "opposite", bold: false, explain: "adj. 对面的" },
+    // 肯送她
   { label: "consent", bold: true, explain: "v./n. 同意，赞成" },
   { label: "agree", bold: false, explain: "v. 同意，赞成" },
   { label: "approve", bold: false, explain: "v. 批准，赞成，同意" },

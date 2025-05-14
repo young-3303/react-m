@@ -1,24 +1,6 @@
 import {Vocabulary} from "@/types/types.ts";
 
 const vocabularyArray4: Vocabulary[] = [
-    // { label: "emotion", bold: false, explain: "n. 感情，情绪，情感" },
-    // { label: "affection", bold: true, explain: "n. 感情；喜爱" },
-    // { label: "feeling", bold: true, explain: "n. 感觉；感触" },
-    // { label: "sentiment", bold: true, explain: "n. 情绪；看法" },
-    // { label: "mood", bold: true, explain: "n. 情绪；心情；气氛" },
-    // { label: "affect", bold: true, explain: "vt. 影响；感动；侵袭" },
-    // { label: "influence", bold: true, explain: "v./n. 影响；作用" },
-    // { label: "impact", bold: true, explain: "v./n. 影响；撞击" },
-    // { label: "have an impact on", bold: true, explain: "对...有影响" },
-    // { label: "flood", bold: true, explain: "v. (使) 淹没；泛滥 n. 洪水，水灾" },
-    // { label: "overwhelm", bold: true, explain: "vt. 淹没；压倒" },
-    // { label: "drown", bold: true, explain: "v. 浸透；淹死，溺死" },
-    // { label: "swallow", bold: true, explain: "v. 吞没，淹没" },
-    // { label: "submerge", bold: true, explain: "v. 淹没" },
-    // { label: "adore", bold: true, explain: "v. 崇拜,热爱" },
-    // { label: "admire", bold: true, explain: "vt. 钦佩；欣赏" },
-    // { label: "worship", bold: true, explain: "v./n. 崇拜，敬仰" },
-    { label: "stress", bold: true, explain: "n. 压力；紧迫；强调 vt. 强调" },
     { label: "combat with", bold: false, explain: "v. 与...战斗；反对" },
     { label: "combat", bold: true, explain: "n. 战斗，搏斗 vt. 与...战斗；反对" },
     { label: "battle", bold: false, explain: "n. 战斗，搏斗 v. 与...作战" },
@@ -44,6 +26,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "disagree", bold: false, explain: "v. 反对；不同意" },
     { label: "object", bold: false, explain: "v. 反对；不同意" },
     { label: "disapprove", bold: false, explain: "v. 反对；不同意" },
+    // 弱爆
     { label: "rebel", bold: true, explain: "vi. 反抗，起义 n. 叛逆者，起义者" },
     // 若我逃
     { label: "revolt", bold: true, explain: "v. 反抗；起义；叛乱" },
@@ -60,7 +43,7 @@ const vocabularyArray4: Vocabulary[] = [
     // 阿Q死
     { label: "accuse", bold: false, explain: "vt. 指责，谴责；控告" },
     { label: "find fault with", bold: false, explain: "挑剔；找茬儿；指责" },
-    // 得弄死
+    // 弟闹事
     { label: "denounce", bold: false, explain: "vt. 谴责；指责" },
     { label: "criticize", bold: false, explain: "v. 批评；批判；挑剔" },
     { label: "appeal", bold: true, explain: "vi./n. 恳求,请求;呼吁" },
@@ -102,26 +85,32 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "backdoor", bold: true, explain: "adj. 秘密的" },
     { label: "recipe", bold: true, explain: "n. 食谱；秘诀；秘方" },
     { label: "law", bold: true, explain: "n. 法律，法规；规律，法则，定律" },
+    // 弟cry
     { label: "decree", bold: true, explain: "n. 法令；政令" },
     { label: "code", bold: true, explain: "n. 法典，法规，章程；密码" },
     { label: "regulation", bold: true, explain: "n. 规章制度" },
+    // 可迷信
     { label: "commission", bold: true, explain: "n. 委员会" },
     { label: "board", bold: false, explain: "n. 委员会, 理事会" },
+    // 看守
     { label: "council", bold: false, explain: "n. 委员会" },
     { label: "delegation", bold: false, explain: "n. 代表团; 委托" },
     { label: "committee", bold: false, explain: "n. 委员会" },
     { label: "department", bold: true, explain: "n. 部, 司, 局, 处, 系" },
     { label: "ministry", bold: false, explain: "n. 部" },
+    // 地位升
     { label: "division", bold: false, explain: "n. 部门; 级; 师" },
     { label: "bureau", bold: false, explain: "n. 办事处; 处; 科" },
     { label: "sector", bold: false, explain: "n. 部门, 领域; 行业" },
     { label: "perform", bold: true, explain: "vt. 施行, 完成" },
     { label: "fulfil", bold: false, explain: "v. 履行, 执行" },
+    // 因破了门
     { label: "implement", bold: false, explain: "vt. 实施, 贯彻" },
     { label: "execute", bold: false, explain: "vt. 实行; 实施" },
     { label: "conduct", bold: false, explain: "v. 实施; 执行" },
     { label: "carry out", bold: false, explain: "实施; 执行; 实行" },
     { label: "inquiry", bold: true, explain: "n. 调查; 质询" },
+    // 投资给谁？
     { label: "investigation", bold: false, explain: "n. 调查; 研究" },
     { label: "survey", bold: false, explain: "n. 调查" },
     { label: "research", bold: false, explain: "n.vt. 研究; 调查" },
@@ -129,6 +118,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "examine", bold: false, explain: "vt. 检查; 考察" },
     { label: "illegal", bold: true, explain: "adj. 非法的, 不合法的" },
     { label: 'illicit', bold: false, explain: "非法的；违法的" },
+    // 来接他们
     { label: "legitimate", bold: true, explain: "adj. 合法的；合理的" },
     { label: "legal", bold: false, explain: "adj. 合法的；法律的" },
     { label: "lawful", bold: false, explain: "adj. 法定的；法律承认的" },
@@ -154,16 +144,21 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "observe", bold: false, explain: "v. 遵守;奉行" },
     { label: "comply", bold: false, explain: "vi. 遵守;遵从;服从" },
     { label: "abide by", bold: false, explain: "遵守;接受" },
+    // 爱的我cat
     { label: "advocate", bold: true, explain: "vi. 提倡,主张,拥护 n. 拥护者" },
     { label: "support", bold: false, explain: "vt. 拥护;支持;鼓励" },
     { label: "appeal", bold: false, explain: "v. 呼吁" },
     { label: "call for", bold: false, explain: "需要;呼吁" },
+    // 抗瘟神
     { label: "convention", bold: true, explain: "n. 惯例,习俗,公约" },
+    // 路停!
     { label: "routine", bold: false, explain: "n. 常规;正常顺序" },
     { label: "custom", bold: false, explain: "n. 惯例;习惯;风俗" },
     { label: "forbid", bold: true, explain: "vt. 禁止,不准,不许" },
     { label: "ban", bold: false, explain: "vt. 禁止,取缔 n. 禁令" },
+    // 破 + hibit
     { label: "prohibit", bold: false, explain: "vt. 禁止;阻止" },
+    // 三个神
     { label: "sanction", bold: true, explain: "vt. 批准,认可 n. 批准,同意;制裁" },
     { label: "permit", bold: false, explain: "v. 批准" },
     { label: "allow", bold: false, explain: "v. 准许;允许" },
@@ -180,7 +175,9 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "terrorize", bold: false, explain: "vt. 威胁；恐吓" },
     { label: "menace", bold: false, explain: "v./n. 威胁，威吓" },
     { label: "frighten", bold: false, explain: "v. 吓唬；使惊吓" },
+    // 霸凌
     { label: "bully", bold: false, explain: "vt. 恐吓；伤害；胁迫" },
+    // 揣着
     { label: "treasure", bold: true, explain: "n. 财富；珍宝 vt. 珍视" },
     { label: "fortune", bold: false, explain: "n. 财富" },
     { label: "property", bold: false, explain: "n. 财产；财物" },
@@ -188,6 +185,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "wealth", bold: false, explain: "n. 财物；财富；富有" },
     { label: "money", bold: false, explain: "n. 财富；钱" },
     { label: "belongings", bold: false, explain: "n. 财物" },
+    // 怕死不让死
     { label: "prosperous", bold: true, explain: "adj. 繁荣的，兴旺的" },
     { label: "affluent", bold: false, explain: "adj. 富裕的" },
     { label: "flourish", bold: false, explain: "v. 繁荣；昌盛" },
@@ -195,12 +193,15 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "well-off", bold: false, explain: "adj. 富裕的" },
     { label: "wealthy", bold: false, explain: "adj. 富有的；富裕的" },
     { label: "rich", bold: false, explain: "adj. 富有的；富饶的" },
+    // 是来福
     { label: "thrive", bold: false, explain: "vi. 兴旺发达；繁荣" },
     { label: "assess", bold: true, explain: "vt. 评估，估价" },
     { label: "appraise", bold: false, explain: "vt. 评价；估价；估量" },
+    // 一万六 + it
     { label: "evaluate", bold: false, explain: "vt. 评估；评价" },
     { label: "salary", bold: true, explain: "n. 薪金，薪水" },
     { label: "pay", bold: false, explain: "n. 工资，薪 v. 支付，付" },
+    // earn
     { label: "earnings", bold: false, explain: "n. 工资，薪" },
     { label: "wage", bold: false, explain: "n. 工资，报酬" },
     { label: "reward", bold: false, explain: "n. 奖励；回报；报酬" },
@@ -224,25 +225,74 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "short", bold: false, explain: "adj. 短缺的" },
     { label: "inadequate", bold: false, explain: "adj. 不充分的" },
     { label: "explain", bold: true, explain: "vt. 解释，说明" },
+    // 因他怕
     { label: "interpret", bold: false, explain: "v. 解释，说明" },
     { label: "put across", bold: false, explain: "描述清楚；解释明白" },
     { label: "account for", bold: false, explain: "解释；占据" },
+    // 地辐射
     { label: "diffuse", bold: true, explain: "v. 传播，扩散" },
     { label: "disperse", bold: false, explain: "v. 分散，散布" },
     { label: "transmit", bold: false, explain: "v. 传播；传导" },
     { label: "spread", bold: false, explain: "v. 传播；展开；摊开" },
     { label: "disseminate", bold: false, explain: "v. 传播；散布" },
+    { label: "nurture", bold: true, explain: "v. 培育, 养育" },
+    { label: "train", bold: false, explain: "v. 培训, 训练" },
+    // 服侍他
+    { label: "foster", bold: false, explain: "v. 培养, 抚育" },
+    { label: "cultivate", bold: false, explain: "v. 培养, 种植" },
+    { label: "educate", bold: false, explain: "v. 培养, 教育, 训练" },
+    { label: "lead", bold: true, explain: "v. 引导, 指导" },
+    { label: "guide", bold: false, explain: "v. 指导, 引导" },
+    // 鹰死抓
+    { label: "instruct", bold: false, explain: "v. 教导, 指导" },
+    { label: "coach", bold: false, explain: "v. 训练, 辅导" },
+    { label: "notify", bold: true, explain: "v. 通知, 报告" },
+    { label: "inform", bold: false, explain: "v. 通知, 通告" },
+    { label: "report", bold: false, explain: "v. 汇报, 报告" },
+    { label: "approach", bold: true, explain: "n. 方法, 途径" },
+    { label: "method", bold: false, explain: "n. 方法, 办法, 措施" },
+    { label: "way", bold: false, explain: "n. 方法, 手段, 途径" },
+    { label: "means", bold: false, explain: "n. 方法, 手段" },
+    { label: "insight", bold: true, explain: "n. 洞察, 见解" },
+    // 应吐一身
+    { label: "intuition", bold: false, explain: "n. 直觉" },
+    { label: "perception", bold: false, explain: "n. 知觉, 认知" },
+    { label: "digest", bold: true, explain: "v. 理解; 消化; 领会" },
+    { label: "understand", bold: false, explain: "v. 理解; 领会" },
+    // 陪媳妇
+    { label: "perceive", bold: false, explain: "vt. 理解; 认为" },
+    { label: "follow", bold: false, explain: "vt. 理解; 跟随; 听从" },
+    { label: "comprehend", bold: false, explain: "v. 理解; 领会" },
+    { label: "see", bold: false, explain: "v. 理解; 看见" },
+    { label: "grasp", bold: false, explain: "vt. 理解; 领会; 抓住" },
+    { label: "cue", bold: true, explain: "v./n. 暗示; 提示" },
+    { label: "suggestion", bold: false, explain: "n. 暗示; 建议" },
+    // 恨她
+    { label: "hint", bold: false, explain: "v./n. 暗示; 提示" },
+    { label: "implication", bold: false, explain: "n. 暗指" },
+    // 瑞克体罚
+    { label: "rectify", bold: true, explain: "vt. 改正" },
+    { label: "correct", bold: false, explain: "v. 纠正; 改正" },
+    { label: "amend", bold: false, explain: "vt. 修正; 修订" },
+    { label: "skim", bold: true, explain: "vt. 浏览" },
+    { label: "browse", bold: false, explain: "v. 浏览; 随便看看" },
+    { label: "scan", bold: false, explain: "v. 浏览; 扫描" },
+    { label: "look through", bold: false, explain: "短语. 浏览; 翻阅" },
+    { label: "initial", bold: true, explain: "adj. 最初的" },
     { label: "original", bold: false, explain: "adj. 起初的；原来的" },
     { label: "primary", bold: false, explain: "adj. 最初的；主要的" },
     { label: "honest", bold: true, explain: "adj. 真诚的，诚实的，正直的" },
     { label: "genuine", bold: false, explain: "adj. 真诚的；真正的" },
+    // 心细啊
     { label: "sincere", bold: false, explain: "adj. 真诚的；诚挚的" },
     { label: "truthful", bold: false, explain: "adj. 诚实的；真实的" },
     { label: "upright", bold: false, explain: "adj. 正直的，诚实的" },
     { label: "polite", bold: true, explain: "adj. 有礼貌的；有教养的" },
     { label: "well-mannered", bold: false, explain: "adj. 有礼貌的" },
     { label: "courteous", bold: false, explain: "adj. 有礼貌的" },
-    { label: "glamour", bold: true, explain: "n. 魅力；魔法 vt. 迷惑；使有魅力" },
+    // 哥来吗
+    { label: "glamour", bold: true, explain: "n. 魅力；魔法 vt. 迷惑；使有魅力 " },
+    // 差吗
     { label: "charm", bold: false, explain: "n. 魅力；魔力" },
     { label: "fascination", bold: false, explain: "n. 极大的吸引力" },
     { label: "liability", bold: true, explain: "n. 责任，义务" },
