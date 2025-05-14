@@ -48,11 +48,14 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "attain", bold: true, explain: "v. 获得" },
   { label: "gain", bold: false, explain: "v. 获得；赢得；博得" },
   { label: "obtain", bold: false, explain: "v. 获得；赢得" },
+  // 饿啊就得去
   { label: "earn", bold: false, explain: "v. 赢得；博得" },
+  // 饿快啊
   { label: "acquire", bold: false, explain: "vt. 获得；得到" },
   { label: "cease", bold: true, explain: "vi. 停止，中止" },
   { label: "stop", bold: false, explain: "v./n. 停止" },
   { label: "end", bold: false, explain: "v./n. 终止，终结" },
+  // 候他
   { label: "halt", bold: false, explain: "n. 停止；阻止；暂停" },
   { label: "quit", bold: false, explain: "v. 停止；退出；戒掉" },
   { label: "culminate", bold: false, explain: "vt. (以……)结束" },
@@ -62,6 +65,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "fulfill", bold: false, explain: "vt. 履行；实现" },
   { label: "finish", bold: false, explain: "v. 完成，做好" },
   { label: "complete", bold: false, explain: "v. 完成；使完整" },
+  // 看是谁哦
   { label: "conceal", bold: true, explain: "vt. 隐藏" },
   { label: "hide", bold: false, explain: "v. 隐藏" },
   { label: "mask", bold: false, explain: "v. 掩饰，遮盖" },
@@ -69,6 +73,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "require", bold: false, explain: "vt. 要求；需要" },
   { label: "want", bold: false, explain: "v. 希望；想要；要" },
   { label: "claim", bold: false, explain: "vt. 要求；声称；需要" },
+  // 得慢点
   { label: "demand", bold: false, explain: "v./n. 需要；要求" },
   { label: "ask", bold: false, explain: "v. 问;询问;要求;请求" },
   { label: "call for", bold: false, explain: "要求;需要" },
@@ -79,7 +84,9 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "imply", bold: false, explain: "v. 暗示;表明" },
   { label: "show", bold: false, explain: "v. 显示;表明;展示" },
   { label: "compose", bold: true, explain: "vt. 由...组成;作曲" },
+  // 看谁踢球的
   { label: "constitute", bold: false, explain: "v. 构成,组成" },
+  // 开始排湿
   { label: "comprise", bold: false, explain: "v. 包含;由...组成" },
   { label: "consist", bold: false, explain: "v. 由...组成" },
   { label: "make up", bold: false, explain: "组成;化妆;编造" },
@@ -102,6 +109,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "copy", bold: false, explain: "v. 复制；复印；模仿" },
   { label: "reproduce", bold: false, explain: "v. 复制；再现" },
   { label: "repeat", bold: false, explain: "v. 重复；重说；重写" },
+  // 一厘米内的
   { label: "eliminate", bold: true, explain: "vt. 排除，消除" },
   { label: "eradicate", bold: false, explain: "vt. 根除；消灭" },
   { label: "exclude", bold: false, explain: "vt. 排除；不包括" },
@@ -112,13 +120,18 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "resolve", bold: false, explain: "v. 决定；决心" },
   { label: "make up one’s mind", bold: false, explain: "下定决心" },
   { label: "discharge", bold: true, explain: "vt. 释放，排出 n. 释放" },
+  // 一颗屎不要
   { label: "expel", bold: true, explain: "vt. 驱逐；排出" },
   { label: "release", bold: true, explain: "vt. 释放；放出；放走" },
   { label: "free", bold: true, explain: "v. 释放；使解脱出来" },
+  // 里边儿+ate
   { label: "liberate", bold: true, explain: "v. 解放；释放" },
+  // 很大
   { label: "hinder", bold: true, explain: "v. 阻碍，妨碍" },
   { label: "curb", bold: true, explain: "vt. 遏制；控制，抑制" },
+  // 憨弟开铺
   { label: "handicap", bold: true, explain: "vt. 阻碍；使不利" },
+  // 哦不！死拽开它
   { label: "obstruct", bold: true, explain: "vt. 阻碍；阻挡" },
   { label: "restrain", bold: true, explain: "vt. 制止，阻止" },
   { label: "block", bold: true, explain: "vt. 阻碍；堵塞；阻塞" },
@@ -126,30 +139,36 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "hold back", bold: true, explain: "阻止；阻挡；克制" },
   { label: "barrier", bold: true, explain: "n. 障碍；屏障；阻力" },
   { label: "flee", bold: true, explain: "v. 逃离，逃避" },
+  // 狗一样
   { label: "dodge", bold: true, explain: "v. 闪开，躲开；逃避" },
   { label: "escape", bold: true, explain: "v. 逃脱；逃避" },
   { label: "evade", bold: true, explain: "v. 规避，逃避" },
   { label: "retreat", bold: true, explain: "v. 撤退；后退" },
+  // 未死就
   { label: "withdraw", bold: false, explain: "v. 撤退；撤回；提取" },
   { label: "pull out", bold: false, explain: "离开，撤离" },
   { label: "abandon", bold: true, explain: "vt. 抛弃，丢弃，放弃" },
   { label: "discard", bold: false, explain: "v. 抛弃" },
   { label: "forsake", bold: false, explain: "vt. 抛弃，遗弃" },
   { label: "omit", bold: true, explain: "v. 忽略；省略" },
+  // 你哥like她
   { label: "neglect", bold: false, explain: "v. 忽视，忽略，疏于照顾" },
   { label: "ignore", bold: false, explain: "vt. 忽视" },
   { label: "overlook", bold: false, explain: "vt. 忽略；未注意" },
   { label: "disregard", bold: false, explain: "vt. 忽视，轻视" },
+  // 弟扑river
   { label: "deprive", bold: true, explain: "vt. 夺去" },
   { label: "rob", bold: false, explain: "vt. 抢劫；掠夺" },
+  // 死+strip
   { label: "strip", bold: false, explain: "v. 夺去，剥夺" },
   { label: "constrain", bold: true, explain: "v. 限制，约束" },
   { label: "bound", bold: false, explain: "v. 限制，约束" },
   { label: "limit", bold: false, explain: "v. 限制；限定" },
   { label: "restrict", bold: false, explain: "v. 束缚；妨碍" },
+  // 看犯人
   { label: "confine", bold: false, explain: "v. 限制；监禁" },
   { label: "forge", bold: true, explain: "vt. 伪造；伪造" },
-  { label: "counterfeit", bold: false, explain: "vt. 伪造；伪造" },
+  // { label: "counterfeit", bold: false, explain: "vt. 伪造；伪造" },
   { label: "falsify", bold: false, explain: "vt. 伪造" },
   { label: "follow", bold: true, explain: "v. 跟随；跟着" },
   { label: "pursue", bold: false, explain: "v. 追求；致力于" },
@@ -157,20 +176,26 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "trail", bold: false, explain: "v. 追踪；(被)拖，拉" },
   { label: "catch up with", bold: false, explain: "赶上，追上" },
   { label: "grasp", bold: true, explain: "vt./n. 抓紧；掌握，理解" },
+  // see 子
   { label: "seize", bold: false, explain: "vt. 抓住；捉住；夺" },
   { label: "catch", bold: false, explain: "v. 抓住" },
   { label: "grab", bold: false, explain: "v. 抓住；提取；抓住" },
+  // 弯的
   { label: "wander", bold: true, explain: "vi. 漫步；漫游" },
-  { label: "roam", bold: false, explain: "v. 漫游；漫步" },
+  // { label: "roam", bold: false, explain: "v. 漫游；漫步" },
+  // 四周
   { label: "stroll", bold: false, explain: "v. 散步" },
+  // 捆起
   { label: "quench", bold: true, explain: "v. 熄灭" },
+  // 一起听鬼故事
   { label: "extinguish", bold: false, explain: "vt. 熄灭；扑灭" },
   { label: "put out", bold: false, explain: "熄灭" },
   { label: "toss", bold: true, explain: "v. 扔，抛，掷" },
   { label: "cast", bold: false, explain: "v. 投射；铸造" },
   { label: "throw", bold: false, explain: "v. 投；掷；抛；扔" },
   { label: "pitch", bold: false, explain: "v. 投掷" },
-  { label: "hurl", bold: false, explain: "v. 投掷；猛投；猛扔" },
+  // { label: "hurl", bold: false, explain: "v. 投掷；猛投；猛扔" },
+  // 歪脖累的
   { label: "vibrate", bold: true, explain: "vi. 摇动，震动" },
   { label: "shake", bold: false, explain: "v. 摇；摇动；抖动" },
   { label: "tremble", bold: false, explain: "vi. 颤抖；颤动" },
@@ -190,18 +215,22 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "emotion", bold: true, explain: "n. 感情,情绪,情感" },
   { label: "affection", bold: false, explain: "n. 感情;喜爱" },
   { label: "feeling", bold: false, explain: "n. 感觉;感触" },
+  // 神踢门
   { label: "sentiment", bold: false, explain: "n. 情绪;看法" },
+  // 木的
   { label: "mood", bold: false, explain: "n. 情绪;心情;气氛" },
   { label: "affect", bold: true, explain: "vt. 影响;感动;侵袭" },
   { label: "influence", bold: false, explain: "v./n. 影响;作用" },
   { label: "impact", bold: false, explain: "v./n. 影响;撞击" },
   { label: "flood", bold: true, explain: "v.(使)淹没;泛滥 n.洪水,水灾" },
-  { label: "overwhelming", bold: false, explain: "vt. 淹没;压倒" },
+  // { label: "overwhelming", bold: false, explain: "vt. 淹没;压倒" },
   { label: "drown", bold: false, explain: "v. 浸透;淹死,溺死" },
+  // 是饿了
   { label: "swallow", bold: false, explain: "v. 吞没,淹没" },
   { label: "submerge", bold: false, explain: "v. 淹没" },
   { label: "adore", bold: true, explain: "v. 崇拜,热爱" },
   { label: "admire", bold: false, explain: "vt. 钦佩;欣赏" },
+  // 哇哦，ship！！
   { label: "worship", bold: false, explain: "v./n. 崇拜,敬仰" },
   { label: "stress", bold: true, explain: "n. 压力;紧迫;强调 vt. 强调" },
   { label: "alarm", bold: true, explain: "n. 惊恐；惊慌；恐慌" },
@@ -211,15 +240,21 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "fright", bold: false, explain: "n. 恐惧；惊吓；恐怖" },
   { label: "terror", bold: false, explain: "n. 恐怖；恐惧" },
   { label: "confidence", bold: true, explain: "n. 信任，信心" },
+  // 必礼服
   { label: "belief", bold: false, explain: "n. 相信；信心；看法" },
   { label: "trust", bold: false, explain: "n. 相信；信任；信赖" },
+  // rely
   { label: "reliance", bold: false, explain: "n. 依赖；依靠；信任" },
+  // 死瞪
   { label: "stun", bold: true, explain: "vt. 使震惊 n. 打昏" },
   { label: "shock", bold: false, explain: "v./n. 震惊；休克；惊愕" },
+  // 饿死掏你屎
   { label: "astonish", bold: false, explain: "vt. 震惊；使十分惊讶" },
   { label: "amaze", bold: false, explain: "vt. 令人惊奇；使惊奇" },
   { label: "aspiration", bold: true, explain: "n. 渴望；抱负" },
+  // 俺必胜！
   { label: "ambition", bold: false, explain: "n. 雄心，抱负" },
+  // 弟在饿
   { label: "desire", bold: false, explain: "n. 渴望；愿望；欲望" }
 ]
 vocabularyArray3.forEach((item) => {
