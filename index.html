@@ -5,10 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>vocabulary</title>
-    <script type="module" crossorigin src="./assets/index-D-5xGMZ6.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-nv9EBtxn.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+    <button>test</button>
+    <input style="display: none" type="file" id="ipt" capture="user" accept="image/*" />
+    <script>
+      document.querySelector('button').addEventListener('click', () => {
+        document.querySelector('#ipt').click()
+      })
+    </script>
   </body>
 </html>
