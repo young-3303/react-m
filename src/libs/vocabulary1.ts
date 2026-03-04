@@ -20,7 +20,9 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'habitation', bold: false, explain: '住宅,住处' },
   { label: 'place', bold: false, explain: '住宅,住处' },
   { label: 'dwelling', bold: false, explain: '住宅,住处' },
+    // 哦那么美
   { label: 'ornament', bold: false, explain: '装饰 vt.装饰,修饰' },
+    // 啊多美啊
   { label: 'adornment', bold: false, explain: '装饰;装饰物' },
   { label: 'decoration', bold: false, explain: '装饰;装饰品' },
   { label: 'leisure', bold: false, explain: '空闲,闲暇' },
