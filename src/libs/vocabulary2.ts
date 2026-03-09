@@ -116,6 +116,7 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "slender", bold: false, explain: "adj. 苗条的，纤细的"},
     {label: "slim", bold: false, explain: "adj. 苗条的，纤细的"},
     {label: "lean", bold: false, explain: "adj. 瘦的，健美的"},
+    // 高级死
     {label: "gorgeous", bold: true, explain: "adj. 华丽的；极好的"},
     {label: "magnificent", bold: false, explain: "adj. 宏伟的"},
     {label: "glorious", bold: false, explain: "adj. 壮丽的、辉煌的"},
@@ -123,6 +124,7 @@ const vocabularyArray2: Vocabulary[] = [
     {label: 'disaster', bold: false, explain: "灾难"},
     {label: "misfortune", bold: false, explain: "n. 灾祸, 灾难"},
     {label: "tragedy", bold: false, explain: "n. 悲剧, 灾难"},
+    // 看它四处飞
     {label: "catastrophe", bold: false, explain: "n. 灾难, 灾难"},
     {label: "confront", bold: true, explain: "vt. (with) 遭遇; 对抗"},
     {label: "face", bold: false, explain: "vt. 面临 n. 脸, 表面"},
@@ -160,9 +162,11 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "inescapable", bold: false, explain: "adj. 不可避免的"},
     {label: "unavoidable", bold: false, explain: "adj. 不可避免的"},
     {label: "doomed", bold: false, explain: "adj. 注定的；命定的"},
+    // 垂危哦
     {label: "trivial", bold: true, explain: "adj. 不重要的，琐碎的"},
     {label: "unimportant", bold: false, explain: "adj. 不重要的"},
     {label: "insignificant", bold: false, explain: "adj. 不重要的"},
+    // 陪他瘦
     {label: "potential", bold: true, explain: "adj. 可能的，潜在的 n. 潜能，能力"},
     {label: "possible", bold: false, explain: "adj. 可能的；可能"},
     {label: "likely", bold: false, explain: "adj. 可能的；预料的"},
@@ -183,6 +187,7 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "continual", bold: false, explain: "adj.频繁的"},
     {label: "authentic", bold: true, explain: "adj.真实的；可靠的，可信的"},
     {label: "actual", bold: false, explain: "adj.真实的；实际的"},
+    // 真牛人
     {label: "genuine", bold: false, explain: "adj.真正的"},
     {label: "true", bold: false, explain: "adj.符合事实的；确实的"},
     {label: "real", bold: false, explain: "adj.真实的；真正的"},
@@ -192,6 +197,7 @@ const vocabularyArray2: Vocabulary[] = [
     {label: "numerous", bold: true, explain: "adj.众多的，大批的，无数的"},
     {label: "abundant", bold: false, explain: "adj.大量的"},
     {label: "mass", bold: false, explain: "adj.许多的；许多的"},
+    {label: "overall", bold: true, explain: "adj.全面的"},
     { label: "comprehensive", bold: true, explain: "adj.全面的" },
     // 因太饿
     { label: "entire", bold: true, explain: "adj.全部的" },
@@ -239,6 +245,7 @@ const vocabularyArray2: Vocabulary[] = [
     { label: "medium", bold: true, explain: "adj. 中等的，适中的 n. 中间；媒介" },
     { label: "middle", bold: false, explain: "adj. 中间的；中等的" },
     { label: "moderate", bold: false, explain: "adj. 中等的" },
+    // 因他割肉
     { label: "integral", bold: true, explain: "adj. 完整的" },
     { label: "whole", bold: false, explain: "adj. 全部的，整个的" },
     { label: "entire", bold: false, explain: "adj. 全部的；完整的" },
@@ -259,7 +266,7 @@ const vocabularyArray2: Vocabulary[] = [
     { label: "evident", bold: false, explain: "adj. 显而易见的" },
     { label: "conspicuous", bold: false, explain: "adj. 明显的" },
     { label: "perpetual", bold: true, explain: "adj. 永久的" },
-    // 一头老
+    // 意特浓
     { label: "eternal", bold: false, explain: "adj. 永久的；不朽的" },
     // 泼墨弄他
     { label: "permanent", bold: false, explain: "adj. 永久的" },
