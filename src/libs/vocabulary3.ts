@@ -159,7 +159,7 @@ const vocabularyArray3: Vocabulary[] = [
   // 弟扑river
   { label: "deprive", bold: true, explain: "vt. 夺去" },
   { label: "rob", bold: false, explain: "vt. 抢劫；掠夺" },
-  // 死+strip
+  // 死+trip
   { label: "strip", bold: false, explain: "v. 夺去，剥夺" },
   { label: "constrain", bold: true, explain: "v. 限制，约束" },
   { label: "bound", bold: false, explain: "v. 限制，约束" },
@@ -167,6 +167,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "restrict", bold: false, explain: "v. 束缚；妨碍" },
   // 看犯人
   { label: "confine", bold: false, explain: "v. 限制；监禁" },
+    // 仿制
   { label: "forge", bold: true, explain: "vt. 伪造；伪造" },
   // { label: "counterfeit", bold: false, explain: "vt. 伪造；伪造" },
   { label: "falsify", bold: false, explain: "vt. 伪造" },
