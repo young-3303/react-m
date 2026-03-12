@@ -183,7 +183,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "grab", bold: false, explain: "v. 抓住；提取；抓住" },
   // 弯的
   { label: "wander", bold: true, explain: "vi. 漫步；漫游" },
-  // { label: "roam", bold: false, explain: "v. 漫游；漫步" },
+  { label: "roam", bold: false, explain: "v. 漫游；漫步" },
   // 四周
   { label: "stroll", bold: false, explain: "v. 散步" },
   // 捆起
@@ -195,7 +195,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "cast", bold: false, explain: "v. 投射；铸造" },
   { label: "throw", bold: false, explain: "v. 投；掷；抛；扔" },
   { label: "pitch", bold: false, explain: "v. 投掷" },
-  // { label: "hurl", bold: false, explain: "v. 投掷；猛投；猛扔" },
+  { label: "hurl", bold: false, explain: "v. 投掷；猛投；猛扔" },
   // 歪脖累的
   { label: "vibrate", bold: true, explain: "vi. 摇动，震动" },
   { label: "shake", bold: false, explain: "v. 摇；摇动；抖动" },
