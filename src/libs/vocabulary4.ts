@@ -19,6 +19,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "chaos", bold: true, explain: "n. 混沌，混乱" },
     { label: "riot", bold: false, explain: "n.v. 骚乱，闹事" },
     { label: "disorder", bold: false, explain: "n. 混乱；紊乱" },
+    // 特别乱死
     { label: "turbulence", bold: false, explain: "n. 动荡；骚乱" },
     { label: "mess", bold: false, explain: "n. 混乱；杂乱；肮脏" },
     { label: "oppose", bold: true, explain: "vt. 反对；抵制" },
@@ -35,9 +36,10 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "surrender", bold: true, explain: "vi. 投降；屈服，让步 vt. 交出，放弃" },
     { label: "submit", bold: false, explain: "vt. 屈服；提交；呈递" },
     { label: "yield", bold: false, explain: "vi. 屈服；放弃；产生" },
+    // 开批条来谈
     { label: "capitulate", bold: false, explain: "vi. 屈服；屈从" },
     { label: "give up", bold: false, explain: "放弃；认输" },
-    // 看弹幕
+    // con + damn
     { label: "condemn", bold: true, explain: "vt. 谴责；指责；宣判，判刑" },
     { label: "blame", bold: false, explain: "vt. 责备；责怪；指责" },
     // 阿Q死
@@ -48,9 +50,11 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "criticize", bold: false, explain: "v. 批评；批判；挑剔" },
     { label: "appeal", bold: true, explain: "vi./n. 恳求,请求;呼吁" },
     { label: "plead", bold: false, explain: "v. 申辩;恳求;乞求" },
+    // 因破落
     { label: "implore", bold: false, explain: "v. 恳求;哀求" },
     { label: "pray", bold: false, explain: "v. 恳求;祈祷" },
     { label: "request", bold: false, explain: "n.vt. 请求,要求" },
+    // 坎坷
     { label: "conquer", bold: true, explain: "vt. 战胜,征服" },
     { label: "win", bold: false, explain: "v. 赢;获胜" },
     { label: "defeat", bold: false, explain: "vt. 战胜;击败" },
@@ -70,7 +74,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "destruct", bold: false, explain: "adj. 破坏的 vi. 破坏" },
     { label: "shatter", bold: false, explain: "v. 摧毁,粉碎" },
     { label: "aggressive", bold: false, explain: "adj. 好斗的,进攻的" },
-    // 米粒弹他
+    // 灭了他的
     { label: "militant", bold: true, explain: "adj. 激进的；好斗的" },
     { label: "attacking", bold: true, explain: "adj. 攻击性的" },
     { label: "disclose", bold: true, explain: "v. 揭露，透露" },
@@ -100,6 +104,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "ministry", bold: false, explain: "n. 部" },
     // 地位升
     { label: "division", bold: false, explain: "n. 部门; 级; 师" },
+    // 不热啊
     { label: "bureau", bold: false, explain: "n. 办事处; 处; 科" },
     { label: "sector", bold: false, explain: "n. 部门, 领域; 行业" },
     { label: "perform", bold: true, explain: "vt. 施行, 完成" },

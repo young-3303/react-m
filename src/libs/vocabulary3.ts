@@ -169,7 +169,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "confine", bold: false, explain: "v. 限制；监禁" },
     // 仿制
   { label: "forge", bold: true, explain: "vt. 伪造；伪造" },
-  // { label: "counterfeit", bold: false, explain: "vt. 伪造；伪造" },
+  { label: "counterfeit", bold: false, explain: "vt. 伪造；伪造" },
   { label: "falsify", bold: false, explain: "vt. 伪造" },
   { label: "follow", bold: true, explain: "v. 跟随；跟着" },
   { label: "pursue", bold: false, explain: "v. 追求；致力于" },
@@ -183,7 +183,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "grab", bold: false, explain: "v. 抓住；提取；抓住" },
   // 弯的
   { label: "wander", bold: true, explain: "vi. 漫步；漫游" },
-  // { label: "roam", bold: false, explain: "v. 漫游；漫步" },
+  { label: "roam", bold: false, explain: "v. 漫游；漫步" },
   // 四周
   { label: "stroll", bold: false, explain: "v. 散步" },
   // 捆起
@@ -195,7 +195,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "cast", bold: false, explain: "v. 投射；铸造" },
   { label: "throw", bold: false, explain: "v. 投；掷；抛；扔" },
   { label: "pitch", bold: false, explain: "v. 投掷" },
-  // { label: "hurl", bold: false, explain: "v. 投掷；猛投；猛扔" },
+  { label: "hurl", bold: false, explain: "v. 投掷；猛投；猛扔" },
   // 歪脖累的
   { label: "vibrate", bold: true, explain: "vi. 摇动，震动" },
   { label: "shake", bold: false, explain: "v. 摇；摇动；抖动" },
@@ -224,7 +224,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "influence", bold: false, explain: "v./n. 影响;作用" },
   { label: "impact", bold: false, explain: "v./n. 影响;撞击" },
   { label: "flood", bold: true, explain: "v.(使)淹没;泛滥 n.洪水,水灾" },
-  // { label: "overwhelming", bold: false, explain: "vt. 淹没;压倒" },
+  { label: "overwhelm", bold: false, explain: "vt. 淹没;压倒" },
   { label: "drown", bold: false, explain: "v. 浸透;淹死,溺死" },
   // 是饿了
   { label: "swallow", bold: false, explain: "v. 吞没,淹没" },
