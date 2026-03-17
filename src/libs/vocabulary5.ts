@@ -53,13 +53,15 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "erupt", bold: true, explain: "v. 爆发;喷发" },
   { label: "break out", bold: false, explain: "爆发" },
   { label: "spout", bold: false, explain: "v. (使)喷出，(使)喷射" },
-    // 湿透
+    // 塞车累的
   { label: "saturate", bold: true, explain: "vt. 使充满，使饱和" },
     // 快么
   { label: "cram", bold: false, explain: "v. 塞满；挤满" },
   { label: "fill", bold: false, explain: "v. 填满；(使)充满" },
   { label: "stuff", bold: false, explain: "vt. 填满；装满；塞满" },
+    // 富态啊
   { label: "fertile", bold: true, explain: "adj. 多产的；肥沃的，富饶的" },
+    // 泼了肥的
   { label: "prolific", bold: false, explain: "adj. 富饶的" },
   { label: "fruitful", bold: false, explain: "adj. 产量多的" },
   { label: "productive", bold: false, explain: "adj. 多产的" },
@@ -76,7 +78,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "distinctive", bold: false, explain: "adj. 独特的" },
   { label: "exceptional", bold: false, explain: "adj. 不寻常的" },
   { label: "special", bold: false, explain: "adj. 特有的；特殊的" },
-  { label: "particular", bold: false, explain: "adj. 特别的" },
+  { label: "particular", bold: false, explain: "adj. 特别的；挑剔的" },
   { label: "unusual", bold: false, explain: "adj. 特别的" },
   { label: "uncommon", bold: false, explain: "adj. 不常有的" },
   { label: "universal", bold: true, explain: "adj. 普遍的; 通用的; 全世界的; 宇宙的" },
@@ -93,6 +95,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "grand", bold: false, explain: "adj. 壮丽的, 宏伟的" },
   { label: "magnificent", bold: false, explain: "adj. 壮丽的" },
   { label: "superb", bold: false, explain: "adj. 卓越的, 壮丽的" },
+    // 破路特
   { label: "pollute", bold: true, explain: "v. 污染, 弄脏" },
     // 看他们弄的
   { label: "contaminate", bold: false, explain: "v. 污染" },
@@ -107,6 +110,7 @@ const vocabularyArray5: Vocabulary[] = [
     // 看肥哥外型
   { label: "configuration", bold: false, explain: "n. 构造" },
   { label: "fabric", bold: false, explain: "n. 构造, 结构" },
+    // 四倍设施
   { label: "spacious", bold: true, explain: "adj. 广阔的, 宽敞的" },
   { label: "extensive", bold: false, explain: "adj. 广阔的; 广泛的" },
   { label: "broad", bold: false, explain: "adj. 宽广的, 宽敞的" },

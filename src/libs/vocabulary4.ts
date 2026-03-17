@@ -239,6 +239,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "disperse", bold: false, explain: "v. 分散，散布" },
     { label: "transmit", bold: false, explain: "v. 传播；传导" },
     { label: "spread", bold: false, explain: "v. 传播；展开；摊开" },
+    // 第三媒体
     { label: "disseminate", bold: false, explain: "v. 传播；散布" },
     { label: "nurture", bold: true, explain: "v. 培育, 养育" },
     { label: "train", bold: false, explain: "v. 培训, 训练" },
@@ -294,15 +295,18 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "upright", bold: false, explain: "adj. 正直的，诚实的" },
     { label: "polite", bold: true, explain: "adj. 有礼貌的；有教养的" },
     { label: "well-mannered", bold: false, explain: "adj. 有礼貌的" },
+    // 磕头而死
     { label: "courteous", bold: false, explain: "adj. 有礼貌的" },
     // 哥来吗
     { label: "glamour", bold: true, explain: "n. 魅力；魔法 vt. 迷惑；使有魅力 " },
     // 差吗
     { label: "charm", bold: false, explain: "n. 魅力；魔力" },
+    // 粉丝男神
     { label: "fascination", bold: false, explain: "n. 极大的吸引力" },
     { label: "liability", bold: true, explain: "n. 责任，义务" },
     { label: "responsibility", bold: false, explain: "n. 责任" },
     { label: "duty", bold: false, explain: "n. 责任，义务，职责" },
+    // 我不理给谁
     { label: "obligation", bold: false, explain: "n. 责任，义务" }
 ]
 vocabularyArray4.forEach(item => {
