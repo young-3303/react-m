@@ -125,6 +125,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "utilize", bold: false, explain: "v. 利用, 使用" },
   { label: "manage", bold: false, explain: "v. 使用, 运用" },
   { label: "exploit", bold: false, explain: "v. 利用, 剥削" },
+    // 以脑为生
   { label: "innovation", bold: true, explain: "n. 创新, 改革, 新事物, 新方法" },
   { label: "renovation", bold: false, explain: "n. 革新, 翻新" },
   { label: "reform", bold: false, explain: "n. 改革; 改进; 改良" },
@@ -136,7 +137,8 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "work", bold: true, explain: "v. 运转; 开动" },
   { label: "operate", bold: false, explain: "v. 操作; 运转" },
   { label: "run", bold: false, explain: "v. 运作; 运转" },
-  { label: "equipment", bold: true, explain: "n. 设备; 器材" },
+  { label: "facility", bold: true, explain: "设施，设备" },
+  { label: "equipment", bold: false, explain: "n. 设备; 器材" },
   { label: "device", bold: false, explain: "n. 设备; 仪器; 器具" },
     // 以命替他
   { label: "imitate", bold: false, explain: "vt 模仿；仿造" },
@@ -162,6 +164,7 @@ const vocabularyArray5: Vocabulary[] = [
     // 因我
   { label: "involve", bold: false, explain: "v. 涉及,包含" },
   { label: "compress", bold: true, explain: "v. 压缩" },
+    // 死鬼子
   { label: "squeeze", bold: false, explain: "v. 挤压,紧握" },
   { label: "condense", bold: false, explain: "v. 压缩" },
   { label: "crush", bold: false, explain: "v. 浓缩,浓缩成" },
@@ -182,7 +185,9 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "firm", bold: false, explain: "adj. 坚固的; 坚硬的" },
   { label: "hard", bold: false, explain: "adj. 坚固的; 坚硬的" },
   { label: "solid", bold: false, explain: "adj. 坚固的; 固体的" },
+    // 发夹哦
   { label: "fragile", bold: true, explain: "adj. 脆的; 易碎的" },
+    // 可以撕破
   { label: "crisp", bold: false, explain: "adj. 脆的; 易碎的" },
   { label: "delicate", bold: false, explain: "adj. 易碎的; 细致的" },
   { label: "launch", bold: true, explain: "v. 发射, 发动" },
@@ -196,8 +201,14 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "contemplate", bold: false, explain: "v. 考虑" },
   { label: "ponder", bold: false, explain: "v. 仔细考虑" },
   { label: "deliberate", bold: false, explain: "v. 考虑, 斟酌" },
-  { label: "sail", bold: true, explain: "v. 航行, 远行" },
-  { label: "navigation", bold: false, explain: "n. 航行, 航海" },
+  { label: "reflect", bold: false, explain: "v. 仔细考虑；深思" },
+  { label: "allow for", bold: false, explain: "考虑到；预留" },
+  { label: "think about", bold: false, explain: "思考" },
+  { label: "think over", bold: false, explain: "思考" },
+  { label: "take into account", bold: true, explain: "考虑到；顾及到" },
+  { label: "give thought to", bold: false, explain: "考虑；思考" },
+  { label: "sail", bold: true, explain: "v. 航行；远航" },
+  { label: "navigate", bold: false, explain: "n. 航行, 导航" },
   { label: "voyage", bold: false, explain: "v. 航行, 远行" },
   { label: "conduct", bold: true, explain: "v. 实施, 进行" },
     // money 飘来的
@@ -208,7 +219,9 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "radical", bold: true, explain: "adj. 基本的, 根底的" },
   { label: "basic", bold: false, explain: "adj. 基本的" },
   { label: "fundamental", bold: false, explain: "adj. 基本的" },
+    // 爱深思
   { label: "essential", bold: false, explain: "adj. 基本的, 至关重要的" },
+    // 维他哦
   { label: "vital", bold: false, explain: "adj. 基本的, 至关重要的" },
   { label: "standpoint", bold: true, explain: "n. 立场, 观点" },
     // 破事别提我
