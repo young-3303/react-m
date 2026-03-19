@@ -222,68 +222,7 @@ const vocabularyArray5: Vocabulary[] = [
     // 爱深思
   { label: "essential", bold: false, explain: "adj. 基本的, 至关重要的" },
     // 维他哦
-  { label: "vital", bold: false, explain: "adj. 基本的, 至关重要的" },
-  { label: "standpoint", bold: true, explain: "n. 立场, 观点" },
-    // 破事别提我
-  { label: "perspective", bold: false, explain: "n. 态度, 观点" },
-  { label: "opinion", bold: false, explain: "n. 意见, 想法" },
-  { label: "view", bold: false, explain: "n. 观点, 看法" },
-  { label: "viewpoint", bold: false, explain: "n. 观点, 看法" },
-  { label: "conceive", bold: true, explain: "vi. 设想, 考虑" },
-  { label: "assume", bold: false, explain: "v. 假定, 假设, 认为" },
-  { label: "imagine", bold: false, explain: "v. 设想, 想象" },
-    // 一问谁知
-  { label: "envisage", bold: false, explain: "vt. 想象, 设想" },
-  { label: "concept", bold: true, explain: "n. 概念, 观念" },
-  { label: "idea", bold: false, explain: "n. 概念, 主意, 想法" },
-    // no 神
-  { label: "notion", bold: false, explain: "n. 概念, 观念, 信念" },
-  { label: "consider", bold: true, explain: "vt. 考虑, 认为" },
-  { label: "reflect", bold: false, explain: "vt. 仔细考虑, 深思" },
-  { label: "ponder", bold: false, explain: "v. 仔细考虑, 深思" },
-  { label: "take into account", bold: false, explain: "短语. 考虑到, 顾及" },
-  { label: "clarify", bold: true, explain: "v. 澄清,阐明" },
-  { label: "explain", bold: false, explain: "v. 阐明, 解释; 说明" },
-  { label: "illustrate", bold: false, explain: "v. 阐明; 加插图于" },
-  { label: "illuminate", bold: false, explain: "v. 阐明, 照亮" },
-  { label: "highlight", bold: true, explain: "v. 突出, 强调" },
-  { label: "stress", bold: false, explain: "v. 强调" },
-  { label: "emphasize", bold: false, explain: "v. 强调" },
-  { label: "definite", bold: true, explain: "adj. 明确的, 肯定的" },
-  { label: "clear", bold: false, explain: "adj. 明确的; 清楚的" },
-  { label: "evident", bold: false, explain: "adj. 明显的" },
-  { label: "obvious", bold: false, explain: "adj. 明确的, 显然的" },
-  { label: "explicit", bold: false, explain: "adj. 明确的; 清楚的" },
-  { label: "distinct", bold: false, explain: "adj. 明显的; 不同的" },
-  { label: "exact", bold: false, explain: "adj. 准确的; 精确的" },
-  { label: "precise", bold: false, explain: "adj. 准确的; 确切的" },
-  { label: "certain", bold: false, explain: "adj. 确定的, 无疑的" },
-  { label: "vague", bold: true, explain: "adj. 不明确的, 含糊的" },
-  { label: "uncertain", bold: false, explain: "adj. 不明确的" },
-  { label: "ambiguous", bold: false, explain: "adj. 含糊的" },
-  { label: "equivocal", bold: false, explain: "adj. 含糊其辞的" },
-  { label: "indefinite", bold: false, explain: "adj. 模糊不清的" },
-  { label: "contradictory", bold: true, explain: "adj. 相互矛盾的" },
-  { label: "paradoxical", bold: false, explain: "adj. 自相矛盾的" },
-  { label: "incompatible", bold: false, explain: "adj. 矛盾的，不相容的" },
-  { label: "distinction", bold: true, explain: "n. 差别，区分" },
-  { label: "difference", bold: false, explain: "n. 差异" },
-  { label: "contrast", bold: false, explain: "n. 差别，对比" },
-  { label: "adverse", bold: true, explain: "adj. 相反的，敌对的" },
-    // 靠吹
-  { label: "contrary", bold: false, explain: "adj. 相反的，相对的" },
-    // river 死
-  { label: "reverse", bold: false, explain: "adj. 相反的" },
-  { label: "opposite", bold: false, explain: "adj. 对面的" },
-    // 肯送她
-  { label: "consent", bold: true, explain: "v./n. 同意，赞成" },
-  { label: "agree", bold: false, explain: "v. 同意，赞成" },
-  { label: "approve", bold: false, explain: "v. 批准，赞成，同意" },
-  { label: "reject", bold: true, explain: "vt. 拒绝，谢绝，舍弃，排斥" },
-  { label: "refuse", bold: false, explain: "vt. 拒绝，回绝，拒却" },
-  { label: "deny", bold: false, explain: "v. 拒绝承认，拒绝给予" },
-  { label: "decline", bold: false, explain: "vt. 拒绝，谢绝" },
-  { label: "turn down", bold: false, explain: "短语. 拒绝" }
+  { label: "vital", bold: false, explain: "adj. 基本的, 至关重要的" }
 ]
 vocabularyArray5.forEach(item => {
   item.bold = false
