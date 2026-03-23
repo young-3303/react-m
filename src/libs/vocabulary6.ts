@@ -134,6 +134,7 @@ const vocabulary6: Vocabulary[] = [
   // 怕不理赛事
   {label: "publicize", bold: false, explain: "vt. 宣传, 公布"},
   {label: "alert", bold: true, explain: "adj. 警惕的, 机敏的"},
+    // war + y 战争来了
   {label: "wary", bold: false, explain: "adj. 谨慎的, 警惕的"},
   // 烤蛇吃
   {label: "cautious", bold: false, explain: "adj. 谨慎的, 小心的"},
@@ -144,6 +145,7 @@ const vocabulary6: Vocabulary[] = [
   {label: "tide", bold: false, explain: "n. 潮流; 趋势"},
   {label: "current", bold: false, explain: "n. 潮流; 趋向"},
   {label: "direction", bold: false, explain: "n. 趋势; 发展方向"},
+    // 引诱死
   {label: "induce", bold: true, explain: "vt. 引诱, 引起"},
   {label: "lure", bold: false, explain: "v. 引诱, 诱惑"},
   // 以利吸他
@@ -151,6 +153,7 @@ const vocabulary6: Vocabulary[] = [
   {label: "evoke", bold: false, explain: "vt. 唤起, 引起"},
   // 贪不得
   {label: "tempt", bold: false, explain: "v. 引诱, 诱惑"},
+  // 铺了纸
   {label: "pledge", bold: true, explain: "n. 承诺, 誓言, 保证"},
   {label: "promise", bold: false, explain: "n. 承诺"},
   {label: "swear", bold: false, explain: "v. 起誓保证, 发誓, 保证"},
@@ -161,7 +164,29 @@ const vocabulary6: Vocabulary[] = [
   {label: "nearly", bold: true, explain: "adv. 几乎, 差不多"},
   {label: "almost", bold: false, explain: "adv. 几乎, 差不多"},
   {label: "virtually", bold: false, explain: "adv. 事实上"},
+    // 拼死跑 送消息
   {label: "principal", bold: true, explain: "adj. 最重要的, 主要的"},
+  {label: "important", bold: false, explain: "adj. 最重要的"},
+  {label: "primary", bold: false, explain: "adj. 首要的、 主要的"},
+  {label: "main", bold: false, explain: "adj. 主要的, 最重要的"},
+  {label: "foremost", bold: false, explain: "adj. 最重要的"},
+  {label: "vital", bold: false, explain: "adj. 至关重要的"},
+  {label: "essential", bold: false, explain: "adj. 必不可少的"},
+    // 可入手
+  {label: "crucial", bold: false, explain: "adj. 至关重要的"},
+  {label: "critical", bold: false, explain: "adj. 至关重要的"},
+  {label: "content", bold: true, explain: "vt. 使满足，使满意 n. 内容"},
+  {label: "satisfy", bold: false, explain: "vt. 使满足，使满意"},
+  {label: "gratify", bold: false, explain: "vt. 使满足，使满意"},
+  {label: "part", bold: true, explain: "n. 部分, 角色"},
+  {label: "fraction", bold: true, explain: "n. 小部分，少量"},
+  {label: "section", bold: false, explain: "n. 部分, 部门"},
+  {label: "segment", bold: false, explain: "n. 部分；份；片"},
+  {label: "fragment", bold: false, explain: "n.部分，片段"},
+  {label: "in terms of", bold: true, explain: "关于"},
+  {label: "with/in regard to", bold: false, explain: "关于"},
+  {label: "as regards", bold: false, explain: "关于"},
+  {label: "disturb", bold: true, explain: "vt.打扰,扰乱"},
   {label: "annoy", bold: true, explain: "vt. 打扰, 骚扰"},
   {label: "trouble", bold: false, explain: "v. 打扰, 使烦恼 n. 麻烦"},
   {label: "bother", bold: false, explain: "v. 打扰, 使烦恼"},
