@@ -2,7 +2,7 @@ import React, {useEffect, useRef, useState} from 'react'
 import { Button, Image, Modal, Tabs } from "antd-mobile";
 import './layout.less'
 import FormContent from './formContent';
-import {DownOutline, EyeInvisibleOutline, EyeOutline, UpOutline} from 'antd-mobile-icons'
+import {DownOutline, EyeInvisibleOutline, EyeOutline, UndoOutline, UpOutline} from 'antd-mobile-icons'
 import {shuffleArray} from "@/utils";
 import {Vocabulary} from "@/types/types.ts";
 import topIcon from '@/assets/icons/top.svg'
@@ -55,6 +55,9 @@ const Layout: React.FC = () => {
       behavior: 'smooth'
     })
   }
+  const sortItem = () => {
+    setList(shuffleArray(list))
+  }
   useEffect(() => {
     tabChange(window.localStorage.getItem('tabKey') || '1')
     listContent.current?.addEventListener('scroll', handleScroll)
@@ -73,7 +76,8 @@ const Layout: React.FC = () => {
         <div className="action-bar">
           <EyeOutline onClick={() => changeAllVisible('show')} fontSize={24} />
           <EyeInvisibleOutline onClick={() => changeAllVisible('hidden')} fontSize={24} />
-          {isReArrange ? <UpOutline onClick={() => changeArrange(false)} fontSize={24} /> : <DownOutline onClick={() => changeArrange(true)} fontSize={24} />}
+          <UndoOutline onClick= {sortItem} fontSize={24} />
+          {/*{isReArrange ? <UpOutline onClick={() => changeArrange(false)} fontSize={24} /> : <DownOutline onClick={() => changeArrange(true)} fontSize={24} />}*/}
         </div>
         <div className="back-top" onClick={backTop} style={{opacity: scrollTop > 100 ? 1 : 0}}>
           <Image src={topIcon} width={30} />

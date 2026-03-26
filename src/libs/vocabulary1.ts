@@ -10,6 +10,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'tour', bold: false, explain: '旅行;旅游;' },
   { label: 'trip', bold: false, explain: '旅行;旅游' },
   { label: 'outing', bold: false, explain: '短途旅行' },
+    // 一次苦行
   { label: 'excursion', bold: false, explain: '短途旅行' },
   { label: 'trip', bold: false, explain: '旅行;旅游' },
   { label: 'dwell', bold: false, explain: '居住;存在于' },
@@ -27,6 +28,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'decoration', bold: false, explain: '装饰;装饰品' },
   { label: 'leisure', bold: false, explain: '空闲,闲暇' },
   { label: 'idleness', bold: false, explain: '空闲' },
+  { label: 'ease', bold: false, explain: 'n.悠闲、安逸' },
   { label: 'participate', bold: false, explain: '参与,参加' },
   { label: 'attend', bold: false, explain: '参加;出席' },
   { label: 'partake', bold: false, explain: '参与;参加' },
@@ -36,6 +38,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'homey', bold: false, explain: '愉快舒适的' },
   { label: 'pleasant', bold: false, explain: '舒适的,令人愉快的' },
   { label: 'intimate', bold: false, explain: '密切的,亲密的' },
+  { label: 'close', bold: false, explain: 'adj.亲密的' },
   { label: 'familiar', bold: false, explain: '密切的,亲密的' },
   { label: 'cheerful', bold: false, explain: '快乐的,愉快的' },
   { label: 'glad', bold: false, explain: 'adj 高兴的' },
@@ -64,7 +67,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'engage', bold: false, explain: '从事;占用;vi.从事于,参加' },
   { label: 'undertake', bold: false, explain: '承担;从事' },
   { label: 'take up', bold: false, explain: '开始从事' },
-  { label: 'distribute', bold: false, explain: '分配,分发' },
+  { label: 'distribute', bold: true, explain: '分配,分发' },
     // 按劳
   { label: 'allot', bold: false, explain: '配给;分派' },
   { label: 'assign', bold: false, explain: '分配(某物)' },
@@ -101,6 +104,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'combine', bold: false, explain: 'v.联合，结合' },
   { label: 'unite', bold: false, explain: 'v.联合，团结；统一' },
   { label: 'bond', bold: false, explain: 'n.纽带；联系；关系' },
+    // 阿嫂示意
   { label: 'associate', bold: false, explain: 'v.联合；联想' },
   { label: 'couple', bold: false, explain: 'v.连接，结合' },
   { label: 'connect', bold: false, explain: 'v.连接；接通' },
@@ -112,11 +116,12 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'generate', bold: false, explain: 'vt.生成；产生' },
   { label: 'arouse', bold: false, explain: 'vt.激起，引发' },
   { label: 'cause', bold: false, explain: 'vt.使发生；造成' },
-    // 未垦
+    // 未垦的
   { label: 'vacant', bold: true, explain: 'adj.空的；空缺的' },
   { label: 'empty', bold: false, explain: 'adj.空的；空洞的' },
   { label: 'unoccupied', bold: false, explain: 'adj.空着的' },
   { label: 'blank', bold: false, explain: 'adj.空白的' },
+    // 哈喽
   { label: 'hollow', bold: false, explain: 'adj.空洞的，空虚的' },
   { label: 'competent', bold: true, explain: 'adj.有能力的，胜任的' },
   { label: 'able', bold: false, explain: 'adj.能够的；有能力的' },
@@ -200,6 +205,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'recover', bold: false, explain: 'v.恢复；复原' },
   { label: 'resume', bold: false, explain: 'v.恢复，回到' },
   { label: 'revive', bold: false, explain: 'v.恢复，复兴' },
+    // 想知道 + 奇迹
   { label: 'wonder', bold: true, explain: 'n.奇迹；惊奇 v.诧异' },
   // 妈哦
   { label: 'marvel', bold: false, explain: 'n.令人惊异的人；奇迹' },
@@ -219,6 +225,7 @@ const vocabularyArray2: Vocabulary[] = [
   {"label":"unconscious","bold":false,"explain":"adj. 无意识的"},
   {"label":"unaware","bold":false,"explain":"adj. 没意识到"},
   {"label":"insensible","bold":false,"explain":"adj. 无知觉的"},
+    // 硬塞我 我都要。。。了
   {"label":"insane","bold":false,"explain":"adj. 疯狂的；精神病的；极愚蠢的"},
   {"label":"crazy","bold":false,"explain":"adj. 疯狂的；不理智的"},
   {"label":"mad","bold":false,"explain":"adj. 疯的"},
@@ -233,6 +240,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'relieve', bold: false, explain: '减轻' },
   { label: 'ease', bold: false, explain: '缓解；减轻' },
   { label: 'comfort', bold: false, explain: '安慰；抚慰' },
+    // 筛他
   { label: 'shatter', bold: false, explain: '打碎，粉碎；破坏' },
   { label: 'break', bold: false, explain: '打破；（使）破，裂' },
   { label: 'destroy', bold: false, explain: '摧毁；毁灭；破坏' },
@@ -253,6 +261,7 @@ const vocabularyArray2: Vocabulary[] = [
   { label: 'break down', bold: false, explain: '崩溃；故障' },
   { label: 'crash', bold: false, explain: '崩溃；碰撞；撞车' },
   { label: 'disintegrate', bold: false, explain: '崩溃，瓦解' },
+    // 看不了啊。。。我要。。。了
   { label: 'crumble', bold: false, explain: '崩溃；破碎，粉碎' },
   // 破费的包
   { label: 'profitable', bold: false, explain: '有益的；有利可图的' },
