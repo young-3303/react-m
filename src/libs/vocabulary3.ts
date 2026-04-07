@@ -7,6 +7,7 @@ const vocabularyArray3: Vocabulary[] = [
   {label: "vary", bold: false, explain: "v. 变化"},
   {label: "turn", bold: false, explain: "v. 改变，转变"},
   {label: "transform", bold: false, explain: "vt. 使改变"},
+    // 肯为她
   {label: "convert", bold: false, explain: "vt. 改变，转换"},
   {label: "reduce", bold: true, explain: "vt. 缩小，减小，减低"},
   {label: "shorten", bold: false, explain: "vt. 缩短；减少；变短"},
@@ -32,6 +33,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "decline", bold: false, explain: "v. 下降；减少" },
   { label: "dive", bold: false, explain: "v. 骤降，突然暴跌" },
   { label: "diminish", bold: false, explain: "v. 减少，降低" },
+    // 在野外的人会。。。
   { label: "bewilder", bold: true, explain: "vt. 使迷惑；使糊涂" },
   { label: "puzzle", bold: false, explain: "vt. 使迷惑" },
   { label: "confuse", bold: false, explain: "vt. 使糊涂；混淆" },
@@ -39,6 +41,7 @@ const vocabularyArray3: Vocabulary[] = [
     // 一刻赛的
   { label: "excite", bold: false, explain: "vt. 使激动；使兴奋" },
   { label: "stimulate", bold: false, explain: "vt. 激发；激励" },
+    // 破网课
   { label: "provoke", bold: false, explain: "vt. 激起；引起" },
   { label: "rouse", bold: false, explain: "vt. 激起；唤起" },
   { label: "set off", bold: true, explain: "引起；使爆炸" },
@@ -55,7 +58,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "cease", bold: true, explain: "vi. 停止，中止" },
   { label: "stop", bold: false, explain: "v./n. 停止" },
   { label: "end", bold: false, explain: "v./n. 终止，终结" },
-  // 候他
+  // 吼他！
   { label: "halt", bold: false, explain: "n. 停止；阻止；暂停" },
   { label: "quit", bold: false, explain: "v. 停止；退出；戒掉" },
   { label: "culminate", bold: false, explain: "vt. (以……)结束" },
@@ -111,6 +114,7 @@ const vocabularyArray3: Vocabulary[] = [
   { label: "repeat", bold: false, explain: "v. 重复；重说；重写" },
   // 一厘米内的
   { label: "eliminate", bold: true, explain: "vt. 排除，消除" },
+    // 已ready k 他
   { label: "eradicate", bold: false, explain: "vt. 根除；消灭" },
   { label: "exclude", bold: false, explain: "vt. 排除；不包括" },
   { label: "get rid of", bold: false, explain: "摆脱；丢弃" },
@@ -142,6 +146,7 @@ const vocabularyArray3: Vocabulary[] = [
   // 狗一样
   { label: "dodge", bold: true, explain: "v. 闪开，躲开；逃避" },
   { label: "escape", bold: true, explain: "v. 逃脱；逃避" },
+    // 一味地
   { label: "evade", bold: true, explain: "v. 规避，逃避" },
   { label: "retreat", bold: true, explain: "v. 撤退；后退" },
   // 未死就
