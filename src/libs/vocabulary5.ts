@@ -216,7 +216,7 @@ const vocabularyArray5: Vocabulary[] = [
   { label: "operate", bold: false, explain: "v. 操纵, 操作" },
   { label: "handle", bold: false, explain: "v. 操纵, 操作" },
   { label: "exercise", bold: false, explain: "v. 运动, 锻炼" },
-  { label: "radical", bold: true, explain: "adj. 基本的, 根底的" },
+  { label: "radical", bold: true, explain: "adj. 基本的, 根底的,激进的" },
   { label: "basic", bold: false, explain: "adj. 基本的" },
   { label: "fundamental", bold: false, explain: "adj. 基本的" },
     // 爱深思
