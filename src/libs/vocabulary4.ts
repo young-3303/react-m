@@ -178,6 +178,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "threaten", bold: true, explain: "vt. 威胁，恐吓" },
     { label: "intimidate", bold: false, explain: "vt. 恐吓，威胁" },
     { label: "terrorize", bold: false, explain: "vt. 威胁；恐吓" },
+    // 没你事
     { label: "menace", bold: false, explain: "v./n. 威胁，威吓" },
     { label: "frighten", bold: false, explain: "v. 吓唬；使惊吓" },
     // 霸凌
@@ -198,9 +199,10 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "well-off", bold: false, explain: "adj. 富裕的" },
     { label: "wealthy", bold: false, explain: "adj. 富有的；富裕的" },
     { label: "rich", bold: false, explain: "adj. 富有的；富饶的" },
-    // 是来福
+    // three + river + 交汇
     { label: "thrive", bold: false, explain: "vi. 兴旺发达；繁荣" },
     { label: "assess", bold: true, explain: "vt. 评估，估价" },
+    // app 经过 + 要raise
     { label: "appraise", bold: false, explain: "vt. 评价；估价；估量" },
     // 一万六 + it
     { label: "evaluate", bold: false, explain: "vt. 评估；评价" },
