@@ -247,6 +247,7 @@ const vocabularyArray4: Vocabulary[] = [
     { label: "train", bold: false, explain: "v. 培训, 训练" },
     // 服侍他
     { label: "foster", bold: false, explain: "v. 培养, 抚育" },
+    // 考题喂他
     { label: "cultivate", bold: false, explain: "v. 培养, 种植" },
     { label: "educate", bold: false, explain: "v. 培养, 教育, 训练" },
     { label: "lead", bold: true, explain: "v. 引导, 指导" },
