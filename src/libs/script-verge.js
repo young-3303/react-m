@@ -13,7 +13,8 @@ const prependRule = [
     "DOMAIN-KEYWORD,steampowered,DIRECT",
     "DOMAIN-KEYWORD,steamcdn,DIRECT",
     "DOMAIN-KEYWORD,copilot,自动选择",
-    "DOMAIN-KEYWORD,mhlnf,自动选择"
+    "DOMAIN-KEYWORD,mhlnf,自动选择",
+    "DOMAIN,itunes.apple.com,DIRECT"
 ]
 const apiList = [
     "DOMAIN,api.ip.sb/geoip,自动选择",
