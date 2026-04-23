@@ -7,11 +7,12 @@
  * @property {string []} proxies - 服务器端口
  */
 const prependRule = [
-    "DOMAIN-KEYWORD,steampipe,DIRECT",
+    // "DOMAIN-KEYWORD,steampipe,DIRECT",
     "DOMAIN-KEYWORD,steamstatic,DIRECT",
-    "DOMAIN-KEYWORD,steamserver,DIRECT",
-    "DOMAIN-KEYWORD,steampowered,DIRECT",
+    // "DOMAIN-KEYWORD,steamserver,DIRECT",
+    // "DOMAIN-KEYWORD,steampowered,DIRECT",
     "DOMAIN-KEYWORD,steamcdn,DIRECT",
+    "DOMAIN-KEYWORD,taikang,DIRECT",
     "DOMAIN-KEYWORD,copilot,自动选择",
     "DOMAIN-KEYWORD,mhlnf,自动选择",
     "DOMAIN,itunes.apple.com,DIRECT"
@@ -24,7 +25,6 @@ const apiList = [
     "DOMAIN,ip.api.skk.moe/cf-geoip,自动选择",
     "DOMAIN,get.geojs.io/v1/ip/geo.json,自动选择",
 ]
-
 function main(config, profileName) {
     let oldRules = config.rules || [];
     config['proxy-groups'].forEach(item => {
