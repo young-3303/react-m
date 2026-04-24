@@ -15,7 +15,8 @@ const prependRule = [
     "DOMAIN-KEYWORD,taikang,DIRECT",
     "DOMAIN-KEYWORD,copilot,自动选择",
     "DOMAIN-KEYWORD,mhlnf,自动选择",
-    "DOMAIN,itunes.apple.com,DIRECT"
+    "DOMAIN,itunes.apple.com,DIRECT",
+    "DOMAIN,linux.do,自动选择"
 ]
 const apiList = [
     "DOMAIN,api.ip.sb/geoip,自动选择",

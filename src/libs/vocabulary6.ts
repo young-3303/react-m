@@ -39,7 +39,7 @@ const vocabulary6: Vocabulary[] = [
   { label: "vague", bold: true, explain: "adj. 不明确的, 含糊的" },
   { label: "uncertain", bold: false, explain: "adj. 不明确的" },
   { label: "ambiguous", bold: false, explain: "adj. 含糊的" },
-  //
+  // 两边说的 equal 一样
   { label: "equivocal", bold: false, explain: "adj. 含糊其辞的" },
   { label: "indefinite", bold: false, explain: "adj. 模糊不清的" },
   { label: "contradictory", bold: true, explain: "adj. 相互矛盾的" },
