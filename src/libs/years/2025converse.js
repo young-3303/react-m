@@ -7,8 +7,12 @@
  * ③ Every coin has its two sides. In my opinion, the advantages of something far outweigh its disadvantages.
  *
  */
-/**
- * Firstly, the government should efficiently coordinate economic and social development, optimize and adjust relevant measures, and introduce a series of policies and regulations in response to current changes and situations. This will address the concerns and needs of the public on this issue.
+/** 对应2
+ * Firstly, the government should efficiently coordinate economic and social development,
+ * optimize and adjust relevant measures, and introduce a series of policies and regulations in response to current changes and situations.
+ * This will address the concerns and needs of the public on this issue.
  *
- * Secondly, society has a responsibility to promote and disseminate relevant knowledge of ... among the masses, raise awareness, and establish proper values. Finally, we should all take collective action and work together to actively solve this problem.
+ * Secondly, society has a responsibility to promote and disseminate relevant knowledge of ... among the masses,
+ * raise awareness, and establish proper values.
+ * Finally, we should all take collective action and work together to actively solve this problem.
  */
