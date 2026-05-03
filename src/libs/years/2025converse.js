@@ -16,3 +16,24 @@
  * raise awareness, and establish proper values.
  * Finally, we should all take collective action and work together to actively solve this problem.
  */
+/** 对应1
+ * Firstly, throughout history, both at home and abroad, ... has been a significant driving force in human social development,
+ * playing an essential role in establishing a correct and scientific philosophy of life,
+ * world view, and core values. Secondly, cultivating ... qualities can help us navigate an increasingly complex world and more intense competition,
+ * and seize unprecedented opportunities. Finally, a recent survey supports my view.
+ * The survey conducted by the Chinese Academy of Social Sciences found that a majority of respondents believe that ...
+ * This indicates that a broad consensus has been reached among the people on this issue.
+ */
+/** 对应3
+ * From a positive perspective, the benefits of ... are undeniable.
+ * Firstly, ... can significantly improve our work and study efficiency,
+ * and bring great convenience to our daily lives.
+ * Secondly, ... can optimize resource allocation and utilization,
+ * accelerate technological innovation, and generate enormous economic benefits,
+ * thereby enhancing the overall quality of economic and social development.
+ * However, things are like a double-edged sword,
+ * which can bring both advantages and disadvantages.
+ * On the negative side, this may bring us many disadvantages. ... may
+ * ① have a harmful effect on XXX / ② bring multiple risks and challenges /
+ * ③ damage the environment / ④ lead to unnecessary waste / ⑤ cause excessive costs. These are problems that we should pay attention to and try to avoid.
+ */
