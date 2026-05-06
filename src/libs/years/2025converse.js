@@ -35,5 +35,6 @@
  * which can bring both advantages and disadvantages.
  * On the negative side, this may bring us many disadvantages. ... may
  * ① have a harmful effect on XXX / ② bring multiple risks and challenges /
- * ③ damage the environment / ④ lead to unnecessary waste / ⑤ cause excessive costs. These are problems that we should pay attention to and try to avoid.
+ * ③ damage the environment / ④ lead to unnecessary waste /
+ *  ⑤ cause excessive costs. These are problems that we should pay attention to and try to avoid.
  */
