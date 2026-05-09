@@ -13,7 +13,8 @@
  * This will address the concerns and needs of the public on this issue.
  *
  * Secondly, society has a responsibility to promote and disseminate relevant knowledge of ... among the masses,
- * raise awareness, and establish proper values.
+ * raise awareness, and est
+ * ablish proper values.
  * Finally, we should all take collective action and work together to actively solve this problem.
  */
 /** 对应1
@@ -37,4 +38,13 @@
  * ① have a harmful effect on XXX / ② bring multiple risks and challenges /
  * ③ damage the environment / ④ lead to unnecessary waste /
  *  ⑤ cause excessive costs. These are problems that we should pay attention to and try to avoid.
+ */
+
+/**
+ * As previously stated, the pursuit of a higher quality of life has always been a driving force for human progress.
+ * However, it’s not easy to ... As a well-known Chinese proverb states,
+ * “Just as polishing makes jade finer, adversity makes one stronger.”
+ * Although the journey ahead may be filled with obstacles,
+ * we must persevere with determination and courage,
+ * striving to create an even more brilliant future.
  */
