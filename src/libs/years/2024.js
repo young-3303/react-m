@@ -1,13 +1,13 @@
 /**
- * @description I read the newspaper every day so that I can stay informed about (current) events.
- * @param important
- * @param international
- * @param latest
- * @param cultural
+ * @description These trends indicate that efforts to hire more women in academia have not been (fruitful).
+ * @param successful
+ * @param worthwhile
+ * @param serious
+ * @param consistent
  */
 
 /**
- * @description After seven days in the desert, the explorer was relieved when he (eventually) found water.
+ * @description The Prime Minister is expected to (unveil) the yearly plan for economic recovery later this week
  * @param predictably
  * @param finally
  * @param luckily
@@ -15,7 +15,7 @@
  */
 
 /**
- * @description When we gave the children ice cream, they immediately (ceased) crying.
+ * @description We are told that the pictures painted on some of the vases were not of real people but characters from (legends)
  * @param started
  * @param continued
  * @param resumed
@@ -23,7 +23,8 @@
  */
 
 /**
- * @description The science teacher (demonstrated) the process of turning solid gold into liquid.
+ * @description After retirement, he finds country life (preferable) to living in the city
+ * A.cheaper than B.better than C.comparable to D.similar to
  * @param showed
  * @param elaborated
  * @param devised
@@ -31,7 +32,8 @@
  */
 
 /**
- * @description John’s application for (admission) to graduate studies in the School of Education has been approved.
+ * @description Heavy rainfall could also (trigger) massive flooding, bringing more misery to millions.
+ * A.cause B.increase C.expect D. transform
  * @param entrance
  * @param acceptance
  * @param experience
@@ -39,7 +41,8 @@
  */
 
 /**
- * @description Most college students in the United States live (away) from home.
+ * @description Higher minimum wage laws, better training, and hour protections all can help to (bring up) job quality for older workers.
+ * A.impact B. lower C.analyze D.raise
  * @param apart
  * @param down
  * @param elsewhere
@@ -47,7 +50,8 @@
  */
 
 /**
- * @description The pursuit of maximum profit often drives manufacturers to (turn out) things that can do harm to people’s health.
+ * @description Numerous tests have shown that in most (instances) the disease can be controlled by medication
+ * A.cases B.forms C.studies D.types
  * @param preserve
  * @param promote
  * @param process
@@ -55,7 +59,8 @@
  */
 
 /**
- * @description Many different parts (make up) an airplane: the engine(s), the wings, the tail, and so on.
+ * @description Jim strode off down a row of books and started pulling them off the shelves at (random).
+ * carefully B. quietly C.aimlessly D.suddenly
  * @param compose
  * @param decorate
  * @param construct
@@ -63,7 +68,8 @@
  */
 
 /**
- * @description You make it sound as if I did it (on purpose).
+ * @description These new fights help to (inspire) competition and ofler more choices for travelers between countries
+ * A.eliminate B. stimulate C.reduce D.upgrade
  * @param carefully
  * @param unwillingly
  * @param incredibly
@@ -71,7 +77,7 @@
  */
 
 /**
- * @description He could never have (foreseen) that one day his books would sell in millions.
+ * @description To (activate) the promotion procedures, you just need to fill in the required personal information.
  * @param understood
  * @param explained
  * @param expected
